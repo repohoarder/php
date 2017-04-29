@@ -1,0 +1,104 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,input,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+		margin:0;
+		padding:0;
+	}
+	
+	input:focus { outline: none; }
+	/* General Section */
+	
+	html, body, textarea, input { 
+		font-family: Helvetica, Arial, sans-serif;
+		font-size:12px;
+		-webkit-text-size-adjust:none;
+		
+	}
+	body {
+		background:#222830 url(../images/bg_login.png);
+	}
+	
+	p {
+		color:#55585d;
+		padding-bottom:3px;
+	}
+	
+	a {
+		color:#55585d;
+	}
+	
+	a:hover {
+		text-decoration:none;
+	}
+	
+	img { border:0; }
+	
+	/* LOGIN */
+
+	#container {
+		width:244px; /*Ширина блока*/
+		height:300px; /*Высота блока*/
+		margin:0 auto;
+		overflow:visible;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-122px; /*Смещаем блок на половину всей ширины влево*/
+		margin-top:-150px; /*Смещаем блок на половину высоты вверх*/
+	}
+	.main {
+		height:100%;
+	}
+	.main_in_main {
+		height:100%;
+	}
+	.content {
+		padding-top:0px;
+		height:300px;
+	}
+	.logo{
+		background:url(../images/logo.png) no-repeat;
+		width:140px;
+		height:110px;
+		display:block;
+		text-indent:-9999px;
+		margin:auto;
+	}
+	#form-login {
+		margin-top:40px;
+	}
+	input[type=text], input[type=password]{
+		background-image:url(../images/input-login.png);
+		width:192px;
+		height:39px;
+		border:0;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#ffffff;
+		padding-left:40px;
+		padding-right:10px;
+	}
+	#pass {
+		background-position:0px -39px;
+	}
+	.button-login {
+		display:inline-block;
+		width:244px;
+		background-image:url(../images/login-button.png);
+		height:39px;
+		border:0;
+		color:#FFF;
+		text-decoration:none;
+		cursor:pointer;
+		font-size:12px;
+		text-align:center;
+		padding:0px 40px;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.button-login:hover {
+		background-position:0px -41px;
+	}
+	.button-login:active {
+		background-position:0px -82px;
+	}
+	

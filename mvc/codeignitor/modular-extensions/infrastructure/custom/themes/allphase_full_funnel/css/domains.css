@@ -1,0 +1,42 @@
+	/* Marketing section / domain search */
+#marketing {position:relative;float:left;width:488px;height:272px;margin:2px 0 25px 1px;padding:25px 430px 0 25px;background:url(../img/bg-marketing1.jpg) 100% 100% no-repeat;border:1px solid #c8cacc;}
+#marketing form{float:left;width:530px;}
+#marketing fieldset{padding:0;margin:0;border:none;}
+#marketing legend{float:left;width:100%;font-size:18px;font-weight:600;}
+#marketing input{float:left;padding:10px;margin:2px 5px 0 0;width:305px;background:#f8fdfe;border:1px solid #cbcbcb;-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);-webkit-border-radius:5px;border-radius:5px;}
+#marketing select{float:left;padding:9px;margin:2px 5px 0 0;background:#f8fdfe;border:1px solid #cbcbcb;-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2);-webkit-border-radius:5px;border-radius:5px;}
+#marketing input[type="submit"]{cursor:pointer;width:103px;height:41px;padding:0;margin:0;border:none;background:url(../img/btn-search.png) 0 0 no-repeat;text-transform:capitalize;text-indent:-100%;white-space:nowrap;overflow:hidden;text-align:left;}
+#marketing input[type="submit"]:hover{background-position:-103px 0;}
+	
+
+/* Structural */
+#availability {float:left;width:100%;}
+	#availability .column {float:right;width:430px;}
+		#availability .column:first-child {float:left;width:490px;}
+
+/* Domain search results */
+#availability {display:none;}
+	#availability [class^="results-"] {display:none;float:left;width:405px;padding:25px 0 20px 85px;margin: 0 0 25px 0;}
+		#availability [class^="results-"] strong {float:left;width:315px;font-size:18px;font-weight:600;overflow:hidden;text-overflow:ellipsis;}
+		#availability [class^="results-"] em {font-style:normal;color:#c21213;}
+		#availability [class^="results-"] p {float:left;margin:0;color:#052554;font-weight:600;}
+		.results-yes {background:url(../img/bg-availability-yes.png) 7px 50% no-repeat;}
+		.results-no {background:url(../img/bg-availability-no.png) 7px 50% no-repeat;}
+
+/* Other suggested domains */
+#suggested-domains {float:left;width:484px;margin:0 0 25px 0;border:3px solid #fff;background:#fff;border-spacing:none;border-collapse:collapse;-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);}
+	#suggested-domains .alt th{padding:5px 5px 5px 25px;text-align:left;}
+	#suggested-domains thead td {text-align:center;padding:5px 5px 25px 5px;}
+	#suggested-domains td {background:#e8f1f9;padding:5px;width:20%;}
+		#suggested-domains tbody td:first-child {padding:5px 0 5px 25px;}
+		#suggested-domains tr.alt td {background:#fff;}
+	#suggested-domains tr.alt th {background:#e2e2e2;}
+	#suggested-domains tbody em, #suggested-domains tbody del {font-size:11px;}
+		#suggested-domains em {color:#c21213;font-style:normal;}	
+		
+		#order-summary {float:left;width:428px;margin:25px 0;border:3px solid #fff;background:#fff;border-spacing:none;border-collapse:collapse;text-align:left;-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);}
+	#order-summary th {padding:10px 10px 10px 50px;background:#e2e2e2 url(../img/icon-cart.png) 20px 50% no-repeat;text-align:left;font-size:22px;}
+	#order-summary td {padding:10px 5px;background:#e8f1f9;font-size:11px;}
+		#order-summary td:first-child {width:270px;padding:8px 8px 8px 25px;}
+		#order-summary .alt td {background:#fff;}
+		#order-summary em {color:#c21213;font-style:normal;}

@@ -1,0 +1,3 @@
+#exit-pop-par {position:relative;float:left;width:780px;height:344px;background:url(../img/bg-body.jpg) 0 0 no-repeat; margin-left:85px;}
+input[type="text"] {position:absolute;bottom:12px;right:140px;height:30px;width:250px;padding:0;margin:0;background:none;border:none;}
+input[type="submit"] {position:absolute;cursor:pointer;bottom:12px;right:72px;height:32px;width:67px;background:url(../img/btn-submit.png) 0 0 no-repeat;border:none;padding:0;text-align:left;text-indent:-200%;overflow:hidden;}

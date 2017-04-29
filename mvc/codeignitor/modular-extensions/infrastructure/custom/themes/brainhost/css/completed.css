@@ -1,0 +1,16 @@
+#completed {float:left;width:898px;padding:25px;margin:0 0 6px 0;-webkit-box-shadow:0 0 5px 0 rgba(0, 0, 0, .5);box-shadow:0 0 5px 0 rgba(0, 0, 0, .5);}
+h1 {padding:0 0 0 45px;background:url(../img/icon-checkmark.png) 0 0 no-repeat;}
+.intro { padding: 0 48px; }
+.paypal {float:left;padding:0 45px 0 190px;background:url(../img/bg-paypal.png) 25px 0 no-repeat; }
+#sec-summary {float:right;width:404px;margin: 0 45px 0 0;background:#e3eef8;}
+	#sec-summary h2 {float:left;width:394px;padding: 5px;background:#b8d4ed;}
+	#sec-summary table {width:394px;padding:5px;text-align:right;font-size:11px;}
+		#sec-summary table th {font-size:14px;font-weight:800;}
+#sec-cc {float:left;width:359px;padding: 25px 45px;text-align:center;}
+#sec-number {float:left;width:359px;padding: 0 45px;font-size:11px;}
+	#sec-number dl {float:left;padding:25px 5px;margin:0;background:#f2f2f2;}
+		#sec-number dt {float:left;width:220px;text-align:right;}
+		#sec-number dd {float:left;padding:0 0 0 20px;margin:0;width:109px;font-weight:800;}
+#btn-setup {float:left;width:739px;height:46px;margin:25px 0 25px 80px;background: url(../img/btn-setup.png) 0 0 no-repeat;text-align:left;text-indent:-100%;}
+.bold-green {color:green;font-weight:bold;}
+.centering {text-align:center;margin-top:10px;}

@@ -1,0 +1,46 @@
+.lair {float:left;width:77px;text-align:center;height:93px;border:1px solid #ddd;position:relative;background:#fff;}
+
+.lair.dropped {border-color:transparent;}
+
+.lair.dropped .lair-label {background:url('/resources/modules/manage/assets/images/dragon/top.png') left top no-repeat;display:table;width:76px;height:30px;color:#fff;font-size:0.6em;line-height: 1.1em;}
+
+.dragon .dragon-label span, .product .product-label span, .lair .lair-label span {display:table-cell;vertical-align:middle;text-align:center;}
+.product .product-label {line-height:1em;}
+
+.dragon, .product {float:left;text-align:center;height:133px;width:107px;font-weight:bold;color:#fff;font-size:0.7em;position:relative;}
+
+.product {font-size:0.9em;margin-right:15px;}
+
+.dragon .dragon-label, .product .product-label {background:url('/resources/modules/manage/assets/images/dragon/top.png') left top no-repeat;display:table;width:107px;height:41px;}
+
+.dragon, .lair {cursor:move;margin:5px}
+
+.knight, .product .product-number {cursor:pointer;position:absolute;bottom:-5px;right:-5px;background:url('/resources/modules/manage/assets/images/dragon/number-square.png') left top no-repeat;width:29px;height:29px;display:block;text-align:center;line-height:29px;font-weight:bold;color:#fff;font-size:0.9em;}
+
+.product .product-number {cursor:auto;font-size: 1.5em;}
+
+.lair.dropped .knight:hover {background:url('/resources/modules/manage/assets/images/dragon/number-cancel.png') left top no-repeat;text-indent:-99999px;}
+
+.clear {display:block;padding:0;margin:0;clear:both;}
+
+#container .lair.dragon-droppable {background:#eee url('/resources/modules/manage/assets/images/dragon/drag-here.png') left center no-repeat;background-size: contain;border:1px solid yellow;box-shadow:0 0 10px yellow, inset 0 0 10px black;}
+#container .lair.dragon-hover {background:#ddd url('/resources/modules/manage/assets/images/dragon/drag-here.png') left center no-repeat;background-size: contain;}
+
+.zoom {cursor:pointer;height:45px;width:46px;background:url('/resources/modules/manage/assets/images/dragon/magnifier.png') left top no-repeat;display:block;text-indent:-9999px;position:absolute;bottom:-10px;right:-10px;}
+
+#accordion h3 {cursor:pointer;}
+#container {float:left;width:100%;padding:25px 0;text-align:center;}
+	#container .lair {background-size: contain;-webkit-border-radius:7px;border-radius:7px;}
+	#container .lair-label {background-size: contain;-webkit-border-radius:7px 7px 0 0;border-radius:7px 7px 0 0;}
+
+#container .lair {background-color:#d2d2d2;}
+
+.ui-draggable-dragging {border:1px solid yellow;box-shadow:0 0 10px yellow;z-index:999999;}
+
+.billing-pages .box a {display:block;}
+.billing-pages .box {position:relative;}
+.billing-pages .zoom {bottom:37px;right: 20px;}
+
+
+.bill_btn {background:url('/resources/modules/manage/assets/images/dragon/billing/select-button.png') left top no-repeat;width:144px;height:39px;display:block;margin:0 auto;cursor:pointer;}
+.bill_select {background-position: -148px top;}

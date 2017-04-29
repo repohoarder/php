@@ -1,0 +1,29 @@
+body { margin:0 auto; background:#00315c; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff;}
+a, a:link, a:visited { color:#ff0000; text-decoration:none; outline:none;}
+a:hover { color:#fff; text-decoration:none; }
+img { border:0; margin:0; padding:0; max-width: 100%;height: auto;}
+p { margin:0; padding:0 0 5px;}
+.clear { clear:both; margin:0; padding:0; height:0;}
+
+.header { background:url(/resources/squishy/img/header_new_bg.png) repeat-x; height:126px;}
+.header_cont { margin:0 auto; width:827px;}
+.companyname { float:left; font-size:40px;  padding-top: 0;}
+.companyname a { text-decoration:none; color:#fff;}
+.maincontainer { margin:0 auto; width:827px; padding:10px 0 10px 0;}
+.maincontainer h1 { margin:0; padding:0 0 10px; text-align:center; font-weight:normal; font-family:Geneva, Arial, Helvetica, sans-serif; font-size:32px; color:#fff;}
+.maincontainer h1 span { text-transform:uppercase; color:#ff0000;}
+/*.video { margin-bottom:0px;}*/
+.video_bg {background:url(/resources/squishy/img/video_bg.png) no-repeat; height:406px; padding: 54px 52px;}
+.shadow { text-align:center;}
+.check { text-align:center; font-size:20px; margin-bottom:15px;}
+.sign_up { margin:0 auto 10px; width:777px;}
+.sign_up a { display:block; background:url(/resources/squishy/img/signup_bg.png) no-repeat; width:777px; height:69px; line-height:69px; text-align:center; text-decoration:none; color:#000; font-size:29px; text-shadow: 1px 1px #FFFFFF;}
+.sign_up a:hover { color:#ff0000;}
+.getway { text-align:center;}
+.getway img { margin-right:5px;}
+
+.footer { background:url(/resources/squishy/img/footer_bg.png) repeat-x; height:74px;}
+.footer_con { margin:0 auto; width:827px;}
+.footer_con p { text-align:center; line-height:74px; font-size:14px;}
+.footer_con p a { text-decoration:none; color:#fff;}
+.footer_con p a:hover { color:#000;}

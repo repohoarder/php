@@ -1,0 +1,3609 @@
+[28-Sep-2012 14:56:23] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/gross Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_STRING in <b>/home/brainhos/base/application/modules/ubersmith/models/reports/payrolls.php</b> on line <b>92</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/payroll.php(75): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Payroll->index()
+#2 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/index.php(209): require_once('/home/brainhos/...')
+#4 {main}
+  thrown in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[28-Sep-2012 14:56:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/gross Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_STRING in <b>/home/brainhos/base/application/modules/ubersmith/models/reports/payrolls.php</b> on line <b>92</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/payroll.php(75): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Payroll->index()
+#2 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/index.php(209): require_once('/home/brainhos/...')
+#4 {main}
+  thrown in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 09:17:53] PHP Parse error:  syntax error, unexpected '*' in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/payroll.php on line 73
+[01-Oct-2012 09:23:26] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/gross Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+} in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 09:52:16] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_per_rev Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12p in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 10:05:29] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/revenue/gross Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Missing argument 1 for Revenue::gross()</p>
+<p>Filename: reports/revenue.php</p>
+<p>Line Number: 67</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: brand</p>
+<p>Filename: reports/revenue.php</p>
+<p>Line Number: 73</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/brainhos/base/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<htm in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 10:11:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/revenue/gross/ Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Missing argument 1 for Revenue::gross()</p>
+<p>Filename: reports/revenue.php</p>
+<p>Line Number: 67</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: brand</p>
+<p>Filename: reports/revenue.php</p>
+<p>Line Number: 73</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/brainhos/base/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<ht in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 10:44:14] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales/sales_team_rev_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/sales_team_rev/controllers/sales_team_rev.php(57): Platform->post('crm/reports/sal...', Array)
+#1 [internal function]: Sales_team_rev->index('all_brands')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('sales_team_rev', 'all_brands')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 10:49:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 12:46:04] PHP Fatal error:  Unsupported operand types in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_by_dept.php on line 72
+[01-Oct-2012 12:52:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[01-Oct-2012 15:08:01] PHP Fatal error:  Can't use function return value in write context in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_per_rev.php on line 140
+[01-Oct-2012 15:51:57] PHP Fatal error:  Cannot use [] for reading in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_by_dept.php on line 121
+[02-Oct-2012 08:48:49] PHP Fatal error:  Cannot use [] for reading in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_by_dept.php on line 117
+[02-Oct-2012 08:49:33] PHP Fatal error:  Cannot use [] for reading in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_by_dept.php on line 107
+[02-Oct-2012 08:50:24] PHP Fatal error:  Cannot use [] for reading in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_by_dept.php on line 108
+[02-Oct-2012 08:57:26] PHP Fatal error:  Cannot use [] for reading in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_by_dept.php on line 108
+[02-Oct-2012 09:36:29] PHP Parse error:  syntax error, unexpected '}' in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_per_rev.php on line 185
+[02-Oct-2012 09:45:05] PHP Parse error:  syntax error, unexpected '[' in /home/brainhos/applications/subdomains/statistics/application/modules/payroll/controllers/pay_per_rev.php on line 184
+[02-Oct-2012 10:57:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/breakdown/revenue/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: pack_id</p>
+<p>Filename: reports/breakdown.php</p>
+<p>Line Number: 70</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/brainhos/base/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[02-Oct-2012 10:59:09] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/breakdown/revenue/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: pack_id</p>
+<p>Filename: reports/breakdown.php</p>
+<p>Line Number: 70</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/brainhos/base/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 08:24:37] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 08:25:34] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 08:25:42] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 09:20:54] PHP Fatal error:  Cannot unset string offsets in /home/brainhos/applications/subdomains/statistics/application/libraries/Duct_tape.php on line 34
+[03-Oct-2012 09:36:36] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroll/pay_by_dept/all_departments Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0; in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 09:38:01] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroll/pay_by_dept/all_departments Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0; in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 09:42:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroll/pay_by_dept/all_departments Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0; in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 09:43:17] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroll/pay_by_dept/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 10:51:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept/brainhost Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/pay_by_dept/controllers/pay_by_dept.php(35): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Pay_By_Dept->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('pay_by_dept', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/custom/lib in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 10:53:12] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_by_dept/brainhost Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/pay_by_dept/controllers/pay_by_dept.php(35): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Pay_By_Dept->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('pay_by_dept', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/custom/lib in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 10:54:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_per_rev Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Missing argument 1 for Payroller::pay_per_rev()</p>
+<p>Filename: reports/payroller.php</p>
+<p>Line Number: 79</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: brand</p>
+<p>Filename: reports/payroller.php</p>
+<p>Line Number: 85</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/brainhos/base/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div> in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 10:56:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/payroller/pay_per_rev Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Missing argument 1 for Payroller::pay_per_rev()</p>
+<p>Filename: reports/payroller.php</p>
+<p>Line Number: 79</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: brand</p>
+<p>Filename: reports/payroller.php</p>
+<p>Line Number: 85</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/brainhos/base/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div> in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[03-Oct-2012 15:26:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales/sales_team_rev_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/sales_team_rev/controllers/sales_team_rev.php(57): Platform->post('crm/reports/sal...', Array)
+#1 [internal function]: Sales_team_rev->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('sales_team_rev', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[04-Oct-2012 08:54:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/breakdown/revenue/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[05-Oct-2012 13:46:07] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales/sales_team_rev_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/sales_team_rev/controllers/sales_team_rev.php(57): Platform->post('crm/reports/sal...', Array)
+#1 [internal function]: Sales_team_rev->index('brain_host_braz...')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('sales_team_rev', 'brain_host_braz...')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[08-Oct-2012 14:56:10] PHP Fatal error:  Class 'Ren_charge_failed' not found in /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php on line 105
+[08-Oct-2012 14:56:28] PHP Fatal error:  Class 'Ren_charge_failed' not found in /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php on line 105
+[08-Oct-2012 14:56:34] PHP Fatal error:  Class 'Ren_charge_failed' not found in /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php on line 105
+[08-Oct-2012 17:29:39] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/brain_host_brazil Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host Brazil":[{"year":"2012","month":"10","day":"1","amount":"62"},{"year":"2012","month":"10","day":"2","amount":"81"},{"year":"2012","month":"10","day":"3","amount":"88"},{"year":"2012","month":"10","day":"4","amount":"21"},{"year":"2012","month":"10","day":"5","amount":"25"},{"year":"2012","month":"10","day":"6","amount":"46"},{"year":"2012","month":"10","day":"7","amount":"54"},{"year":"2012","month":"10","day":"8","amount":"69"}]}}' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/sub in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[08-Oct-2012 17:29:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/revenue/gross/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":true,"error":[],"data":{"brainhost":[{"amount":"53145.58","year":"2012","month":"10","day":"1"},{"amount":"52438.55","year":"2012","month":"10","day":"2"},{"amount":"44921.49","year":"2012","month":"10","day":"3"},{"amount":"47637.83","year":"2012","month":"10","day":"4"},{"amount":"36296.72","year":"2012","month":"10","day":"5"},{"amount":"34480.75","year":"2012","month":"10","day":"6"},{"amount":"40432.38","year":"2012","month":"10","day":"7"},{"amount":"37185.29","year":"2012","month":"10","day":"8"}]}}' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+# in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[08-Oct-2012 17:30:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/revenue/gross/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":true,"error":[],"data":{"brainhost":[{"amount":"53145.58","year":"2012","month":"10","day":"1"},{"amount":"52438.55","year":"2012","month":"10","day":"2"},{"amount":"44921.49","year":"2012","month":"10","day":"3"},{"amount":"47637.83","year":"2012","month":"10","day":"4"},{"amount":"36296.72","year":"2012","month":"10","day":"5"},{"amount":"34480.75","year":"2012","month":"10","day":"6"},{"amount":"40432.38","year":"2012","month":"10","day":"7"},{"amount":"37185.29","year":"2012","month":"10","day":"8"}]}}' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+# in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[08-Oct-2012 17:30:09] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host":[{"year":"2012","month":"10","day":"1","amount":"133"},{"year":"2012","month":"10","day":"2","amount":"142"},{"year":"2012","month":"10","day":"3","amount":"131"},{"year":"2012","month":"10","day":"4","amount":"133"},{"year":"2012","month":"10","day":"5","amount":"100"},{"year":"2012","month":"10","day":"6","amount":"104"},{"year":"2012","month":"10","day":"7","amount":"102"},{"year":"2012","month":"10","day":"8","amount":"79"}],"Purely Hosting":[{"year":"2012","month":"10","day":"1","amount":"77"},{"year":"2012","month":"10","day":"2","amount":"111"},{"year":"20 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 07:57:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/renewals/refunded/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":true,"error":[],"data":{"brainhost":[{"year":"2012","month":"10","day":"2","amount":"1463.25"},{"year":"2012","month":"10","day":"3","amount":"933.20"},{"year":"2012","month":"10","day":"4","amount":"898.70"},{"year":"2012","month":"10","day":"5","amount":"825.65"},{"year":"2012","month":"10","day":"6","amount":"160.15"},{"year":"2012","month":"10","day":"7","amount":"29.90"},{"year":"2012","month":"10","day":"8","amount":"1048.95"},{"year":"2012","month":"10","day":"9","amount":"318.20"}]}}' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/bra in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 07:58:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/renewals/refunded/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":true,"error":[],"data":{"brainhost":[{"year":"2012","month":"10","day":"2","amount":"1463.25"},{"year":"2012","month":"10","day":"3","amount":"933.20"},{"year":"2012","month":"10","day":"4","amount":"898.70"},{"year":"2012","month":"10","day":"5","amount":"825.65"},{"year":"2012","month":"10","day":"6","amount":"160.15"},{"year":"2012","month":"10","day":"7","amount":"29.90"},{"year":"2012","month":"10","day":"8","amount":"1048.95"},{"year":"2012","month":"10","day":"9","amount":"318.20"}]}}' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/bra in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 08:02:23] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host":[{"year":"2012","month":"10","day":"2","amount":"142"},{"year":"2012","month":"10","day":"3","amount":"131"},{"year":"2012","month":"10","day":"4","amount":"133"},{"year":"2012","month":"10","day":"5","amount":"100"},{"year":"2012","month":"10","day":"6","amount":"104"},{"year":"2012","month":"10","day":"7","amount":"102"},{"year":"2012","month":"10","day":"8","amount":"111"},{"year":"2012","month":"10","day":"9","amount":"15"}],"Purely Hosting":[{"year":"2012","month":"10","day":"2","amount":"111"},{"year":"2012","month":"10","day":"3","amount":"134"},{"year":"2 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 08:09:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host":[{"year":"2012","month":"10","day":"2","amount":"142"},{"year":"2012","month":"10","day":"3","amount":"131"},{"year":"2012","month":"10","day":"4","amount":"133"},{"year":"2012","month":"10","day":"5","amount":"100"},{"year":"2012","month":"10","day":"6","amount":"104"},{"year":"2012","month":"10","day":"7","amount":"102"},{"year":"2012","month":"10","day":"8","amount":"111"},{"year":"2012","month":"10","day":"9","amount":"16"}],"Purely Hosting":[{"year":"2012","month":"10","day":"2","amount":"111"},{"year":"2012","month":"10","day":"3","amount":"134"},{"year":"2 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 08:35:51] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host":[{"year":"2012","month":"10","day":"2","amount":"142"},{"year":"2012","month":"10","day":"3","amount":"131"},{"year":"2012","month":"10","day":"4","amount":"133"},{"year":"2012","month":"10","day":"5","amount":"100"},{"year":"2012","month":"10","day":"6","amount":"104"},{"year":"2012","month":"10","day":"7","amount":"103"},{"year":"2012","month":"10","day":"8","amount":"111"},{"year":"2012","month":"10","day":"9","amount":"16"}],"Purely Hosting":[{"year":"2012","month":"10","day":"2","amount":"111"},{"year":"2012","month":"10","day":"3","amount":"134"},{"year":"2 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 08:48:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host":[{"year":"2012","month":"10","day":"2","amount":"142"},{"year":"2012","month":"10","day":"3","amount":"131"},{"year":"2012","month":"10","day":"4","amount":"133"},{"year":"2012","month":"10","day":"5","amount":"100"},{"year":"2012","month":"10","day":"6","amount":"104"},{"year":"2012","month":"10","day":"7","amount":"105"},{"year":"2012","month":"10","day":"8","amount":"111"},{"year":"2012","month":"10","day":"9","amount":"17"}],"Purely Hosting":[{"year":"2012","month":"10","day":"2","amount":"111"},{"year":"2012","month":"10","day":"3","amount":"134"},{"year":"2 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 08:48:26] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: order_steps</p>
+<p>Filename: libraries/Ubersmith.php</p>
+<p>Line Number: 108</p>
+
+</div>{"success":1,"error":[],"data":{"Brain Host":[{"year":"2012","month":"10","day":"2","amount":"142"},{"year":"2012","month":"10","day":"3","amount":"131"},{"year":"2012","month":"10","day":"4","amount":"133"},{"year":"2012","month":"10","day":"5","amount":"100"},{"year":"2012","month":"10","day":"6","amount":"104"},{"year":"2012","month":"10","day":"7","amount":"105"},{"year":"2012","month":"10","day":"8","amount":"111"},{"year":"2012","month":"10","day":"9","amount":"17"}],"Purely Hosting":[{"year":"2012","month":"10","day":"2","amount":"111"},{"year":"2012","month":"10","day":"3","amount":"134"},{"year":"2 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[09-Oct-2012 15:25:16] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/refund/rev_refund_revenues Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 1 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 12:29:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamarie/rev_refund_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/anamarie/controllers/anamarie.php(40): Platform->post('crm/reports/ana...', Array)
+#1 [internal function]: Anamarie->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('anamarie', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/custom/libraries/Template in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 12:30:54] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamarie/rev_refund_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/anamarie/controllers/anamarie.php(40): Platform->post('crm/reports/ana...', Array)
+#1 [internal function]: Anamarie->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('anamarie', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/custom/libraries/Template in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 12:31:07] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamarie/rev_refund_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/anamarie/controllers/anamarie.php(40): Platform->post('crm/reports/ana...', Array)
+#1 [internal function]: Anamarie->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('anamarie', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/custom/libraries/Template in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 12:33:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamarie/revenues Improperly formatted Platform API response <br />
+<b>Fatal error</b>:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in <b>/home/brainhos/base/application/third_party/MX/Modules.php</b> on line <b>68</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/anamarie/controllers/anamarie.php(40): Platform->post('crm/reports/ana...', Array)
+#1 [internal function]: Anamarie->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('anamarie', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/.. in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 12:39:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamarie/revenues Improperly formatted Platform API response <br />
+<b>Fatal error</b>:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in <b>/home/brainhos/base/application/third_party/MX/Modules.php</b> on line <b>68</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/anamarie/controllers/anamarie.php(40): Platform->post('crm/reports/ana...', Array)
+#1 [internal function]: Anamarie->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('anamarie', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/.. in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 13:16:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamariez/refunds Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 1 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[10-Oct-2012 13:45:26] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/anamariez/chargebacks Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/anamarie/controllers/anamarie.php(56): Platform->post('crm/reports/ana...', Array)
+#1 [internal function]: Anamarie->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('anamarie', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications/infrastructure/custom/libraries/Template.php(75 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[12-Oct-2012 15:50:29] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/sales/sales_team_rev_revenues Improperly formatted Platform API response null' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/sales_team_rev/controllers/sales_team_rev.php(57): Platform->post('crm/reports/sal...', Array)
+#1 [internal function]: Sales_team_rev->index('brain_host_braz...')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('sales_team_rev', 'brain_host_braz...')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(266): MX_Loader->_ci_load(Array)
+#6 /home/brainhos/applications in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[15-Oct-2012 09:37:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal/attempted/brainhost Improperly formatted Platform API response <br />
+<b>Fatal error</b>:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in <b>/home/brainhos/base/application/third_party/MX/Modules.php</b> on line <b>68</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/paypal_compare/controllers/paypal_compare.php(40): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Paypal_compare->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('paypal_compare', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[15-Oct-2012 09:37:50] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal/attempted/brainhost Improperly formatted Platform API response <br />
+<b>Fatal error</b>:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in <b>/home/brainhos/base/application/third_party/MX/Modules.php</b> on line <b>68</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/paypal_compare/controllers/paypal_compare.php(40): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Paypal_compare->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('paypal_compare', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[15-Oct-2012 09:47:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal/sales/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[15-Oct-2012 09:47:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal_orders/sales/brazil_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 10:02:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal_orders/sales/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 10:07:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal_orders/sales/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 10:42:17] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal_orders/attempted/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 10:46:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal_orders/attempted/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 13:30:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/reports/paypal_orders/sales/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 14:57:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 14:57:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:14:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:15:20] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:17:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:17:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:18:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/sales_team_rev_revenues Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:18:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/sales_team_rev_revenues Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:26:24] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 1 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:26:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 1 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:26:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 1 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:27:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 1 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:28:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brazil_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	paddin in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:29:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/brain_host Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:30:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/brain_host Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:32:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:32:44] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:32:50] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:33:14] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:33:24] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/attempted/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	 in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:33:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:33:45] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:34:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:34:09] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:36:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:37:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:37:51] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:38:24] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:38:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:38:54] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brazil_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	paddin in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:09] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brazil_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	paddin in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:30] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/purely_hosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	pad in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brainhost_brazil Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12p in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:34] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:40:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:41:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brazil_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	paddin in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:41:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/revenue/gross/brazil_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	paddin in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:42:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:43:12] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/purelyhosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padd in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:43:17] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/purely_hosting Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	pad in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 15:52:54] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 16:08:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 16:08:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 16:14:01] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 16:16:09] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales_count/get/all_brands Improperly formatted Platform API response <pre>Array
+(
+    [api] => http://my.brainhost.com/
+    [ver] => 2.0
+    [user] => apirobot
+    [pass] => d.EsastAp.uNasw7
+    [database] => brainhost
+)
+</pre>' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/sales_counts/controllers/sales_counts.php(14): Platform->post('crm/reports/sal...', Array)
+#1 [internal function]: Sales_counts->index('all_brands')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/dash.php(26): Modules::run('sales_counts', 'all_brands')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/bra in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 16:16:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <pre>Array
+(
+    [api] => http://my.brainhost.com/
+    [ver] => 2.0
+    [user] => apirobot
+    [pass] => d.EsastAp.uNasw7
+    [database] => brainhost
+)
+</pre>' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/paypal_sales/controllers/paypal_sales.php(60): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Paypal_sales->index('brainhost')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('paypal_sales', 'brainhost')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/b in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[17-Oct-2012 16:20:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 12:54:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 13:47:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 13:49:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/sales/avg_cust_val_orders Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 14:38:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 14:38:56] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainost Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px  in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 14:39:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 14:49:45] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  paypal_database</p>
+<p>Filename: reports/paypals.php</p>
+<p>Line Number: 121</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Database Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margi in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[18-Oct-2012 14:51:37] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/crm/reports/paypal_orders/sales/brainhost Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_DOUBLE_ARROW in <b>/home/platform/ci/application/errors/error_php.php</b> on line <b>4</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/statistics/application/modules/paypal_sales/controllers/paypal_sales.php(60): Platform->post('crm/reports/pay...', Array)
+#1 [internal function]: Paypal_sales->index('brain_host')
+#2 /home/brainhos/applications/infrastructure/custom/third_party/MX/Modules.php(70): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/statistics/application/modules/dashboard/views/report.php(4): Modules::run('paypal_sales', 'brain_host')
+#4 /home/brainhos/applications/infrastructure/custom/third_party/MX/Loader.php(318): include('/home/brainhos/...')
+#5 /home/brain in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79

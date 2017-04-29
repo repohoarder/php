@@ -1,0 +1,800 @@
+[16-Oct-2012 20:09:30] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/sales_funnel/pages/get Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px  in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[16-Oct-2012 20:13:39] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/sales_funnel/page/get_all Improperly formatted Platform API response <br />
+<b>Fatal error</b>:  Class 'Memcache' not found in <b>/home/platform/ci/application/libraries/Cache.php</b> on line <b>57</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/admin/application/modules/pages/controllers/pages.php(21): Platform->post('sales_funnel/pa...', Array)
+#1 [internal function]: Pages->index()
+#2 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/brainhos/...')
+#4 {main}
+  thrown in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[16-Oct-2012 20:14:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/sales_funnel/page/get_all Improperly formatted Platform API response <br />
+<b>Fatal error</b>:  Class 'Memcache' not found in <b>/home/platform/ci/application/libraries/Cache.php</b> on line <b>57</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/subdomains/admin/application/modules/pages/controllers/pages.php(21): Platform->post('sales_funnel/pa...', Array)
+#1 [internal function]: Pages->index()
+#2 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/brainhos/...')
+#4 {main}
+  thrown in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[16-Oct-2012 20:15:30] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/sales_funnel/page/get_all Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  database</p>
+<p>Filename: models/pages.php</p>
+<p>Line Number: 31</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/platform/ci/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[16-Oct-2012 20:16:22] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/sales_funnel/page/get_all Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  database</p>
+<p>Filename: models/pages.php</p>
+<p>Line Number: 31</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/platform/ci/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[16-Oct-2012 20:17:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/sales_funnel/page/get_all Improperly formatted Platform API response <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index:  database</p>
+<p>Filename: models/pages.php</p>
+<p>Line Number: 31</p>
+
+</div><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  Cannot modify header information - headers already sent by (output started at /home/platform/ci/system/core/Exceptions.php:185)</p>
+<p>Filename: core/Common.php</p>
+<p>Line Number: 438</p>
+
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:41:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 10:45:20] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 30
+[19-Oct-2012 10:45:52] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 47
+[19-Oct-2012 12:25:47] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:47] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:47] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:47] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:47] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:48] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:25:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:26:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:30:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:24] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:31:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:00] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:16] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:36] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:32:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:05] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:34:35] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:35:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:46:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:53] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:54] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:51:54] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 12:52:06] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:02:25] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_ENDIF in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>30</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/modules/login/controllers/user.php(43): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/modules/login/controllers/user.php(101): User->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/modules/login/controllers/user.php(62): User->_login_submit()
+#3 [internal function]: User->login()
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:07:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:08:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:12:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:27] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:27] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:27] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:28] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:30] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:13:45] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:14:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:02] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:10] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:15:31] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:23] PHP Parse error:  syntax error, unexpected ',' in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 41
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:24:46] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:33] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:27:44] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_ARRAY in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>82</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/modules/login/controllers/user.php(43): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/modules/login/controllers/user.php(101): User->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/modules/login/controllers/user.php(62): User->_login_submit()
+#3 [internal function]: User->login()
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:44] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:30:51] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_VARIABLE in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>105</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check(false, false)
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:30:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_VARIABLE in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>103</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check(false, false)
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:31:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_VARIABLE in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>103</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check(false, false)
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomains/admin/index.php(204): require_once('/home/ in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:51] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:31:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:16] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:18] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:20] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:22] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:25] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:26] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:30] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:37] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:32:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://platform.brainhost.com/ubersmith/client/login Improperly formatted Platform API response <br />
+<b>Parse error</b>:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in <b>/home/platform/ci/application/modules/ubersmith/config/ubersmith.php</b> on line <b>96</b><br />
+' in /home/brainhos/applications/infrastructure/custom/libraries/platform.php:79
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/hooks/login.php(61): Platform->post('ubersmith/clien...', Array)
+#1 /home/brainhos/applications/infrastructure/custom/hooks/login.php(34): Login->_check('mthompson', 'OceanFish@44')
+#2 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(229): Login->check('')
+#3 /home/brainhos/applications/infrastructure/custom/core/MY_Hooks.php(122): MY_Hooks->_run_hook(Array)
+#4 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(298): MY_Hooks->_call_hook('pre_controller')
+#5 /home/brainhos/applications/subdomai in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:04] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:12] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:33:22] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:14] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:37:52] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:08] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:08] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:39:39] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:43] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:41:57] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:20] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:50:38] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:01] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:09] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:23] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:37] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:49] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:52:50] PHP Fatal error:  Call to a member function config() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:54:09] PHP Parse error:  syntax error, unexpected T_RETURN in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 20
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:36] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:37] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:58:44] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:59:08] PHP Parse error:  syntax error, unexpected ';' in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:59:16] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19
+[19-Oct-2012 13:59:58] PHP Fatal error:  Call to a member function uri_string() on a non-object in /home/brainhos/applications/infrastructure/custom/hooks/login.php on line 19

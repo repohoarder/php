@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700);
+
+/* Reset */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}
+audio,canvas,video{display:inline;zoom:1;}
+audio:not([controls]){display:none;height:0;}
+[hidden]{display:none;}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+html,button,input,select,textarea{font-family:sans-serif;}
+a:focus{outline:thin dotted;}
+a:active,a:hover{outline:0;}
+abbr[title]{border-bottom:1px dotted;}
+b,strong{font-weight:700;}
+blockquote{margin:1em 40px;}
+dfn{font-style:italic;}
+mark{background:#ff0;color:#000;}
+code,kbd,pre,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em;}
+pre{white-space:pre-wrap;word-wrap:break-word;}
+q{quotes:none;}
+q:before,q:after{content:none;}
+small{font-size:80%;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-.5em;}
+sub{bottom:-.25em;}
+dd{margin:0 0 0 40px;}
+menu,ol,ul{padding:0 0 0 40px;}
+nav ul,nav ol{list-style:none;list-style-image:none;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+svg:not(:root){overflow:hidden;}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}
+legend{border:0;white-space:normal;margin-left:-7px;padding:0;}
+button,input,select,textarea{font-size:100%;vertical-align:middle;margin:0;}
+button,input{line-height:normal;}
+button,html input[type="button"],/* 1 */
+input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;overflow:visible;}
+button[disabled],input[disabled]{cursor:default;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;height:13px;width:13px;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+textarea{overflow:auto;vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0;}
+body,figure,form{margin:0;}
+hr {float:left;width:100%;border:1px solid #dbd9d8;}
+
+/* General styles */
+* {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+body {float:left;font-family:'Trebuchet MS', Helvetica, sans-serif;font-size:14px;color:#525252;min-width:320px;background:#EEEEEE;}
+fieldset {padding:0;border:none;}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], select, textarea {width:100%;padding:5px;border:2px solid #dfdfdf;-webkit-box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);-webkit-border-radius:5px;border-radius:5px;}
+.center-width {width:707px;margin:0 auto;}
+.btn-yellow {position:relative;float:left;width:100%;padding:6px;border:1px solid #9b5f09;background:#e49119 url(../img/btn-yellow.png)0 0 repeat-x;font-family:"Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;font-size:30px;color:#000;text-align:center;text-decoration:none;-webkit-border-radius:7px;border-radius:7px;-webkit-box-shadow: inset 0 2px 2px #fadb80, 0 5px 5px rgba(0,0,0,.3);box-shadow: inset 0 2px 2px #fadb80, 0 5px 5px rgba(0,0,0,.3);text-shadow:1px 1px 2px rgba(0,0,0,.5);}
+	.btn-yellow:hover {margin:0 0 -2px 0;padding:8px 6px 6px 6px;-webkit-box-shadow: inset 0 0 25px #f0ff00;box-shadow: inset 0 0 25px #f0ff00;text-shadow:0 0 3px rgba(255,255,255,.5);}
+
+/* Branding */
+#t-branding {display:table;float:left;width:100%;height:180px;background:url(../img/bg-branding.jpg)0 0 repeat-x;}
+	#t-branding .center-width {width:960px;}
+	#t-branding  .logo {display:table-cell;height:167px;vertical-align:middle;}
+
+/* Content */
+#t-main {float:left;width:100%;}
+	#t-main .content {float:left;width:100%;padding:0 0 50px 0;margin:0 0 25px 0;background:#fff;border:1px solid #E7E8E8;-webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .5), inset 0 0 50px 0 rgba(0, 0, 0, .3);box-shadow: 0 0 15px 0 rgba(0, 0, 0, .5), inset 0 0 50px 0 rgba(0, 0, 0, .3);-webkit-border-radius: 5px;border-radius: 5px;}
+	#t-main .col-l, #t-main .col-r {width:580px;margin:0 auto;}
+	#t-main h1 {position:relative;float:left;width:726px;height:80px;margin:-1px 0 25px -71px;padding:12px 0 0 0;background:url(../img/bg-header.png)0 0 no-repeat;color:#fff;text-align:center;font-size:32px;}
+	#t-main h2 {float:left;width:100%;margin:50px 0 0 0;padding:0 0 10px 0;font-size:26px;color:#000;background:url(../img/bg-h2.png) 0 100% no-repeat;}
+	#t-main .flowplayer {position:relative;clear:both;display:block;width:580px;height:326px;margin:0 auto 25px auto;border:5px solid #666;}
+	#t-main ol {position:relative;float:left;width:606px;margin:0 0 0 -13px;list-style:none;padding:0;}
+		#t-main ol li {float:left;height:200px;text-indent:-200%;overflow:hidden;}
+			#t-main ol li.one {width:155px;background:url(../img/bg-step1.jpg)0 0 no-repeat;}
+			#t-main ol li.two {width:150px;background:url(../img/bg-step2.jpg)0 0 no-repeat;}
+			#t-main ol li.three {width:149px;background:url(../img/bg-step3.jpg)0 0 no-repeat;}
+			#t-main ol li.four {width:152px;background:url(../img/bg-step4.jpg)0 0 no-repeat;}
+				#t-main ol li strong {display:none;}
+
+/* Footer */
+#t-footer {float:left;width:100%;background:#101010 url(../img/bg-footer.png) 0 0 repeat-x;}
+	#t-footer .center-width {width:960px;}
+	#t-footer p {float:left;width:30%;font-size:11px;font-family:tahoma, arial, sans-serif;color:#ccc;}
+	#t-footer ul {float:right;width:70%;margin:0;padding:8px 0 0 0;list-style:none;text-align:right;}
+		#t-footer ul li {display:inline;margin:0 5px;}
+			#t-footer ul li a {font-size:12px;color:#fff;}
+				#t-footer ul li a:hover {text-decoration:none;}
+
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	.center-width {padding:0 10px;}
+		.center-width, .content {width:100%;margin:0;background:none;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	#banner-do-not-close hgroup {width:64%;}
+	#banner-do-not-close h1, #banner-do-not-close h2 {font-size:1.3em;}
+	#banner-do-not-close .do-not-close {font-size:1em;}
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	#t-footer {text-align:center;}
+	#t-footer ul {float:left;width:100%;padding:0;text-align:center;}
+	#t-footer p {width:100%;text-align:center;}
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	#banner-do-not-close .do-not-close {display:none;}
+	#banner-do-not-close hgroup {width:100%;padding:15px;margin:0;background:none;text-align:center;}
+}

@@ -1,0 +1,28 @@
+/* General overrides and helper classes */
+body {background:#efefef;color:#000;font:normal 13px/18px "Open Sans", sans-serif;}
+h1 {position:relative;margin:0 0 15px 0;font-size:20px;}
+strong {font-size:14px;}
+p {padding:0 30px;}
+
+/* Structure */
+.wrapper {width:960px;margin:0 auto;}
+#t-branding {float:left;width:100%;padding:10px 0;background:#052554 url(../img/bg-header.png) 50% 100% no-repeat;border-bottom:1px solid #5e89b2;}
+#page {float:left;width:900px;border:none;padding:30px;margin:0 0 50px 0;text-align:center;background:#fff;-webkit-box-shadow:0 0 10px 0 rgba(0, 0, 0, .5);box-shadow:0 0 10px 0 rgba(0, 0, 0, .5);webkit-border-radius:5px;border-radius:5px;}
+
+#traffic_upgrade_highlight_txt {display:block;width:557px;height:38px;margin: 15px auto;background:url(../img/english/bg-traffic-important.jpg) 0 0 no-repeat;text-align:left;text-indent:-100%;overflow:hidden;}
+#traffic_upgrade_headline {margin:0;font-size:44px;font-weight:600;line-height:1em;letter-spacing:-2px;}
+	#traffic_upgrade_headline dd {margin:0;padding:0;}
+#traffic_uprgrade_select_package {display:block;width:628px;height:34px;padding:15px 0 0 0;margin:15px auto;background:url(../img/bg-traffic-select.jpg) 0 0 no-repeat;color:#fff;font-size:21px;font-weight:600;}
+.traffic_upsell_container {position:relative;display:block;width:613px;height:96px;padding:15px 0 0 0;margin:15px auto;background:url(../img/bg-traffic-container.jpg) 0 0 no-repeat;}
+	.traffic_upsell_container input[type='submit'] {float:none;cursor:pointer;display:block;width:468px;height:33px;padding:0 0 0 0;margin:0 auto;border:none;background:url(../img/bg-traffic-button.png) 0 0 no-repeat;font-size:14px;font-weight:600;letter-spacing:-1px;}
+		.traffic_upsell_container input[type='submit']:hover {background-position: 0 -33px;}
+	.traffic_upsell_container h4 {padding:7px 0;font-size:30px;letter-spacing:-2px;font-weight:600;}
+		.traffic_upsell_container h4 em {color:#033389;font-weight:800;font-style:normal;}
+		.traffic_upsell_container h4 em.red {color:#c10423;}
+		.traffic_upsell_container h4 span {font-size:18px;color:#033389;}
+#traffic_upgrade_footer_txt {color:#04478e;font-size:14px;font-weight:600;}
+
+.arrow-l {position:absolute;width:60px;height:57px;left:0;top:20px;margin:0 0 0 -20px;background:url(../img/traffic_upsell_content_box_arrows.gif) 0 -57px no-repeat;}
+.arrow-r {position:absolute;width:60px;height:57px;right:0;top:20px;margin:0 -20px 0 0;background:url(../img/traffic_upsell_content_box_arrows.gif) 0 0 no-repeat;}
+
+.highly-recommended {width: 290px;height: 28px;overflow: hidden;text-indent: -9999em;background: url(../img/english/traffic_upsell_highly_recommended.gif) no-repeat 0 0;position: absolute;top: -17px;left: 170px;}

@@ -1,0 +1,81 @@
+/* General */
+.center {text-align:center;padding:0;}
+.row {float:left;width:100%;}
+.blue {color:#2a68a2;}
+
+#page h1 {width:100%;color:#1d4d87;text-shadow:1px 1px 3px rgba(0,0,0,0.5);text-align:center;font-weight:normal;font-size:22px;border:1px solid #8fb9d0;-moz-box-sizing:border-box;box-sizing:border-box;}
+	h1 em {text-decoration:underline;font-style:normal;}
+.box {padding:15px 0;border:1px solid #b7b7b7;text-align:center;background:#f5f5f5 url(../img/bg-billing-box-top.png)0 0 repeat-x;-moz-box-sizing:border-box;box-sizing:border-box;margin:10px 20px 0;}
+	.box em {font-style:normal;text-decoration:underline;}
+.billing-wrap {width:621px;margin:0 auto;}
+	.billing-wrap img {margin:15px 2px;}
+
+/* Steps */
+#accordion > li {background:url(../img/bg-accordion-header.png) 0 0 repeat-x;}
+	#accordion ol ul li {background:none;}
+	#accordion li h2 {font-size:16px;font-weight:800;color:#2a68a2;}
+	.one h2 {background:url(../img/icon-one.png) 5px 50% no-repeat;}
+	.two h2 {background:url(../img/icon-two.png) 5px 50% no-repeat;}
+	.three h2 {background:url(../img/icon-three.png) 5px 50% no-repeat;}
+	.four h2 {background:url(../img/icon-four.png) 5px 50% no-repeat;}
+	#accordion fieldset {float:left;width:100%;padding:20px 30px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);box-shadow:0 0 5px rgba(0,0,0,0.5);border:6px solid #fff;-moz-box-sizing:border-box;box-sizing:border-box;background:#e6eff8 url(../img/bg-fieldset.png) 0 0 repeat-y;}
+	#accordion ul {list-style:none;margin:0;padding:0;}
+		#accordion ul li {float:left;width:100%;}
+			#accordion ul li input, #accordion ul li select {float:left;width:100%;-moz-box-sizing:border-box;box-sizing:border-box;font-size:12px;font-family:"Open Sans", sans-serif;padding:10px;border:2px solid #e8edee;-webkit-border-radius:7px;border-radius:7px;}
+				#accordion ul li input.error, #accordion ul li select.error {border:2px solid #99000;}
+			#accordion ul li.half {float:left;width:47%;margin:0 3% 0 0;}
+				#accordion ul li.half + li.half {margin:0 0 0 3%;}
+	#accordion ul.billing li input {width:60%;}
+	#accordion ul.billing li select {width:30%;}
+	#accordion ul.billing li label {float:left;width:140px;color:#585656;font-size:11px;padding:15px 0 0 0;}
+	.tos {float:left;width:100%;padding:20px 0 0 0;}
+		.tos label {font-size:11px;color:#585656;}
+	#accordion input[type='submit'] {cursor:pointer;float:right;width:150px;height:41px;background:url(../img/english/btn-continue.png) 0 0 no-repeat;border:none;text-align:left;text-indent:-100%;overflow:hidden;}
+
+/* Hosting packages */
+#accordion ul.hosting-package {margin:20px auto 0 auto;}
+	#accordion ul.hosting-package li {position:relative;cursor:pointer;float:left;width:126px;height:160px;margin:0 15px 0 0;padding:10px;border:2px solid #e8e8e8;-moz-box-sizing:border-box;box-sizing:border-box;text-align:center;background:#fff url(../img/bg-hosting-option.png) 50% 0 no-repeat;}
+		#accordion ul.hosting-package li:last-child {margin:0;}
+		#accordion ul.hosting-package li.active {border:2px solid #6195c2;}
+		#accordion ul.hosting-package li .check {display:none;position:absolute;width:36px;height:36px;background:url(../img/icon-hosting-active.png) 0 0 no-repeat;top:-20px;left:45px;}
+			#accordion ul.hosting-package li.active .check {display:block;}
+		#accordion ul.hosting-package li h3 {color:#467faf;font-size:24px;letter-spacing:-1px;}
+		#accordion ul.hosting-package li span {color:#b2b2b2;font-size:12px;}
+		#accordion ul.hosting-package li p {padding:15px 0 0 0;color:#2d6ba3;font-size:11px;}
+		#accordion ul.hosting-package li strong {position:absolute;width:122px;height:22px;bottom:-22px;left:-2px;text-align:left;text-indent:-100%;overflow:hidden;border:2px solid #d8d5d5;background:url(../img/english/icon-best-value.png) 50% 0 no-repeat;}
+		#accordion .col-l, #accordion .col-r {float:left;width:50%;padding:50px 0 0 0;font-size:11px;}
+				#accordion .col-l li, #accordion .col-r li {width:auto;padding:5px 25px;background:url(../img/bullet.png) 0 2px no-repeat;}
+		#accordion .total {float:left;width:100%;padding:20px 0 0 0;text-align:right;}
+		#c4c {float:left;margin:25px 25px 0 0;}
+		#selHosting {display:none;}
+		#accordion ul.billing li input#cc_security {width:145px;}
+
+/* Change for change */
+#change-for-change {padding:20px;background:#fafafa;border:2px solid #6195c2;}
+	#change-for-change h3 {color:#3370a7;font-size:34px;letter-spacing:-1px;}
+	#change-for-change img {float:right;margin:0 0 0 25px;}
+	#change-for-change p {font-size:15px;color:#6e6e6e;}
+		#change-for-change p strong {}
+		#change-for-change p em {font-size:18px;color:#153f72;}
+		#change-for-change p a {font-size:12px;color:#6e6e6e;}
+		#change-for-change label {padding:0 0 0 15px;margin:0 0 0 15px;letter-spacing:-1px;color:#153f72;font-size:15px;border-left:1px solid #adadad;}
+#change-for-change-no {padding:20px;margin:20px 0 0 0;background:#f9f9f9;border:2px solid #adadad;}
+	#change-for-change-no label {padding:0 0 0 15px;margin:0 0 0 15px;letter-spacing:-1px;color:#adadad;font-size:15px;border-left:1px solid #adadad;}
+
+/* JQuery UI overrides */
+.billing-wrap .ui-accordion .ui-accordion-header {padding:10px 25px 10px 50px;}
+	.billing-wrap .ui-accordion .ui-accordion-header .ui-accordion-header-icon {left:auto;right:0.5em;}
+.billing-wrap .ui-state-default .ui-icon {width:14px;height:14px;background:url(../img/icon-closed.png)50% 50% no-repeat;}
+.billing-wrap .ui-state-active .ui-icon {background:url(../img/icon-open.png)50% 50% no-repeat;}
+.ui-accordion .ui-accordion-content {background:#f2f2f2;}
+
+/* Errors */
+label.error {display:none;}
+.errors_wrapper {padding:10px 27px 0 27px;}
+.errors {position:relative;float:left;width:100%;margin:20px -2px 0 -2px;background:#fec2c3 url('/resources/brainhost/img/icon-error.png') 10px center no-repeat;border:2px solid #a32e2e;-webkit-border-radius:7px;border-radius:7px;margin:0;padding:20px 0;margin-bottom:15px;}
+.errors li {list-style-type:none;padding:0 0 0 70px;}
+.errors .pad {padding:20px 20px 20px 100px;}
+.errors h2 {font-size:16px;color:#811d1d;font-weight:800;}
+#accordion .col-l li.upsell_check, #accordion .col-r li.upsell_check {background:none;padding-left:0px;}
+#accordion ul li.upsell_check input {width:auto;padding:0;margin:0 10px 0 0;}
+#must_agree {display:none;float:left;width:100%;padding:10px 0;color:#ff0000;font-size:11px;}

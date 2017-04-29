@@ -1,0 +1,49 @@
+html, body, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+img {border:none;outline:none;}
+.clear {clear:both;}
+
+h1, h1 a {float:left;width:908px;padding:20px;background:#dbecf5;font:900 30px/30px "Open Sans", sans-serif;border-bottom:1px solid #fff;}
+h2, h2 a {}
+h3, h3 a {}
+h4, h4 a {}
+h5, h5 a {}
+h6, h6 a {}
+
+html {}
+body {background:#e0e0e0;font: normal 14px/19px Arial, sans-serif;}
+
+em {font-weight:bold;font-style:normal;}
+a {color:#035483;}
+p {font-weight:800;padding:0 0 20px;margin:0;}
+a:visited {color:#035483;}
+a:hover {color:#000000;}
+video {display:block;margin:0 auto;}
+
+.wrapper {width:960px;margin:0 auto;}
+.replaced {text-indent:-100%;overflow:hidden;text-align:left;text-transform:uppercase;}
+
+/* Top level structure*/
+#t-header {float:left;width:100%;padding:20px 0;background:#052554 url(/resources/modules/free/assets/img/setup/bg-header.png) 50% 100% no-repeat;border-bottom:1px solid #5e89b2;}
+
+/* Page content */
+#page {float:left;width:948px;margin: 25px 0 50px 0;background:#ddf1f8;border:6px solid #fff;-webkit-border-radius:7px;border-radius:7px;-webkit-box-shadow:0 0 35px 0 rgba(0, 0, 0, .7);box-shadow:0 0 35px 0 rgba(0, 0, 0, .7);}
+.content {float:left;width:908px;padding:20px 20px 0;border-bottom:1px solid #fff;}
+.step1 {float:left;width:555px;}
+	.step1 h2 {float:left;width:505px;padding:15px 0 15px 50px;background:url(/resources/modules/free/assets/img/setup/icon-step1.png) 0 0 no-repeat;font-weight:normal;color:#4c4c4c;}
+.step2 {float:left;width:393px;}
+	.step2 h2 {float:left;width:343px;padding:15px 0 15px 50px;background:url(/resources/modules/free/assets/img/setup/icon-step2.png) 0 0 no-repeat;font-weight:normal;color:#4c4c4c;}
+
+/* Form */
+form {float:left;padding:0;margin:0;}
+form legend {display:none;}
+form fieldset {float:left;padding:0 0 30px 0;margin:0;border:none;}
+form input {float:left;width:361px;padding:8px 5px;border:1px solid #bdd3db;}
+form select {float:left;width:361px;padding:8px 5px;border:1px solid #bdd3db;}
+form div {float:left;width:373px;padding:10px 10px 0 10px;}
+	form div.half {width:176px}
+		form div.half input{width:164px}
+	form div.last {margin: 0 0 15px 0;}
+form label {float:left;width:100%;color:#4c4c4c;font-size:14px;font-weight:800;}
+form label small{float:left;width:100%;font-size:12px;font-weight:normal;}
+button {display:block;float:none;height:44px;width:355px;margin:0 auto;padding:0;border:none;background:url(/resources/modules/free/assets/img/setup/btn-create.png) 0 0 repeat-x;cursor:pointer;font-size:25px;font-weight:800;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);border:1px solid #a05e09;}
+	button:hover {background:#e7a41c;}

@@ -1,0 +1,15 @@
+/* General overrides and helper classes */
+body {background:#efefef;color:#000;font:normal 13px/18px "Open Sans", sans-serif;}
+h1 {position:relative;margin:0 0 15px 0;font-size:20px;}
+strong {font-size:14px;}
+p {padding:0 30px;}
+
+/* Structure */
+.wrapper {width:960px;margin:0 auto;}
+#t-branding {float:left;width:100%;padding:10px 0;background:#052554 url(../img/bg-header.png) 50% 100% no-repeat;border-bottom:1px solid #5e89b2;}
+#page {float:left;width:900px;border:none;padding:30px;margin:0 0 50px 0;text-align:center;background:#fff;-webkit-box-shadow:0 0 10px 0 rgba(0, 0, 0, .5);box-shadow:0 0 10px 0 rgba(0, 0, 0, .5);webkit-border-radius:5px;border-radius:5px;}
+
+form {float:left;width:100%;}
+#personal_site_buttons button {cursor:pointer;display:block;width:468px;height:33px;padding:0 0 0 0;margin:0 auto;border:none;background:url(../img/bg-traffic-button.png) 0 0 no-repeat;font-size:14px;font-weight:600;letter-spacing:-1px;}
+	#personal_site_buttons button:hover {background-position: 0 -33px;}
+	

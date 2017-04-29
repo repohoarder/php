@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+* {-webkit-text-size-adjust:none;}
+/* CSS Document */
+
+html, body { font-family:Arial, Helvetica, sans-serif; font-size: 12px; color:#4c4c4c; background:#00315c url(/resources/modules/bonus/assets/oneclicks/cloud/images/bodybg.jpg) repeat-x left top; }
+html { min-width:1000px;}
+
+/*clearing float*/
+.clr {clear: both;}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0px; 
+    clear: both; 
+    visibility: hidden;}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/*clearing float*/
+
+
+.content_area { padding:0 0 177px 0; width:100%; float:left;}
+/*.video { margin:40px auto 19px auto; padding:51px 51px 71px 50px;  width:645px; height:337px; background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/videobg.png) no-repeat center top; } */
+.video_inner { width:645px; height:337px; position:relative;}
+.clickwatch_btn { left: 250px; position: absolute; top: 115px;}
+
+
+/*PurelyHosting_1ClickUpsell_Cloud2*/
+h1.special_offer{color:#ffffff; font-size:25px; font-family: Arial, Helvetica, sans-serif; padding:30px 0 0 120px;}
+h1.special_offer span{color:#8ea302; font-size:30px; text-transform:uppercase; font-family: Arial, Helvetica, sans-serif;}
+.video_new { margin:20px auto 8px auto; padding:51px 51px 71px 50px;  width:645px; height:337px; background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/videobg.png) no-repeat center top; }
+.transfer_checked{background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/white_checked.png) left top no-repeat;  font-size:20px; float:left; margin-left:184px;
+font-family: Arial, Helvetica, sans-serif; color:#ffffff; padding:0 0 20px 30px;}
+.transfer_btn{width:100%; text-align:center; float:left;}
+.permission_row{font-family: Arial, Helvetica, sans-serif; font-size:12px; float:left; width:100%; text-align:center; color:#ffffff; margin:-15px 0 28px 0;}
+.cards_row{width:408px; margin:0 auto; padding-bottom:55px;}
+.cards{float:left; margin-right:10px;}
+
+.small_whtbx_outer { margin:0 auto; width:740px; }
+.small_whtbx_outer .smallwhtbx_top { background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/small_whtbox_top.png) no-repeat center top; height:15px; float:left; width:100%;}
+.small_whtbx_outer .smallwhtbx_mid { background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/small_whtbox_midd.png) repeat-y center top; height:auto;  float:left; width:92%; padding:0 30px;}
+.small_whtbx_outer .smallwhtbx_bot { background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/small_wht_box_bottom.png) no-repeat center bottom; height:15px; float:left; width:100%;}
+
+.blue_heading{color:#00315c; font-size:28px; font-family: Arial, Helvetica, sans-serif; padding-top:35px; font-weight:bold;}
+.content_row{border-bottom:1px solid #c2c2c2; float:left; width:100%; padding-bottom:35px;}
+.blue_subtitle{font-family: Arial, Helvetica, sans-serif; font-size:20px; color:#00315c; }
+.blue_subtitle span{font-size:28px; font-family: Arial, Helvetica, sans-serif;}
+
+ul.hosting_solution{padding:20px 0; float:left;}
+ul.hosting_solution li{background:url(/resources/modules/bonus/assets/oneclicks/cloud/images/green_tick.png) left top no-repeat; padding: 0 0 0 30px; font-family: Arial, Helvetica, sans-serif; 
+font-size:16px; float:left; color:#00315c; margin:0 20px 12px 20px;}
+ul.hosting_solution li.large{width:270px; }
+.content_row_last{border-bottom:0; float:left; width:100%; padding-bottom:35px;}
+.case_studyrow{width:100%; float:left; padding:30px 0;}
+.case_study_photo{border:3px solid #bebebe; width:118px; height:117px; float:left; margin-right:20px;}
+.case_study_txt{font-family: Arial, Helvetica, sans-serif; float:left; width:75%;  font-size:13px;}
+.case_study_txt span{display:block; width:100%; float:left; padding-top:17px;  font-size:14px;}
+
+
+
+
+
+#page {background:none;border-style:none;border-radius:0px;box-shadow:none;float:none;margin:0;padding:0;width:auto;}
+#t-main {background:transparent;min-width:auto;}
+.content_area {padding-bottom:20px;}
+li {list-style-type:none;}
+h1.special_offer {line-height:auto;font-weight:500;padding-left:45px;}
+.transfer_checked {margin-left: 104px;}
+#t-branding .logo {margin-left:50px;}
+ul.hosting_solution li {padding-bottom:5px;padding-top:5px;}
+
+.video_inner {background:none;}
+.video_new {background:none;padding:0;}

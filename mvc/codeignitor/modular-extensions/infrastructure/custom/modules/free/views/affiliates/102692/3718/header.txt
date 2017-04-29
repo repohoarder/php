@@ -1,0 +1,2 @@
+<script language="javascript" src="http://j.maxmind.com/app/geoip.js"></script>
+<span style="font-size:22pt;">Special Offer For <script language="javascript">document.write(geoip_city());</script> Residents</span>

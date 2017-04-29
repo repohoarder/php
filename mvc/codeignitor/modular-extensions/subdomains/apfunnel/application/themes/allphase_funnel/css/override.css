@@ -1,0 +1,85 @@
+/* 1/23/2013 Matt Thompson - I removed the green (#3262AA) and replaced with original blue (#3262AA) */
+
+.center-width {width:860px;}
+#t-main {float:left;width:100%;}
+
+/* Signup */
+#form_wrapper #frmDomain #txtDomainName {width:330px;}
+
+/* Billing */
+#accordion li h2 {text-align:left;}
+#accordion ul li {margin:0 0 7px 0;}
+
+/* Platinum package */
+#t-branding {float: left;width: 100%;height: 137px;background: url(../img/bg-header.png) 0 0 repeat-x;}
+#t-main {background: none #fff;}
+.one-time-offer h1 {width: 742px;height: 53px;}
+#platinum .content {position: relative;margin: 0;float: left;width: 742px;background: white;-webkit-border-radius: 0;border-radius: 0;-webkit-box-shadow: none;box-shadow: none;}
+legend {display:none;}.content .feature h2 {width: 696px;height: 74px;}#t-footer {margin:0;}
+
+/* Platinum discount */
+#promo-offer-info h3.promo-offer {height:127px;}
+#promo-offer-info .promo-offer-info ol, #promo-offer-info ul {margin:0 0 25px 0;}
+
+/* SEO package */
+.msg-search-engines {border:none;}
+
+/* Social media */
+.mainbox {margin:0;width:auto;}
+.mainbox form {float:left;width:372px;}
+
+/* Traffic */
+#traffic_uprgrade_select_package {height:49px;}
+
+/* Completed */
+#completed {float:none;width:auto;padding:0;margin:0;-webkit-box-shadow:none;box-shadow:none;}
+	#completed h1 {margin:0 0 20px 0;}
+#sec-number dt, #sec-number dd {width:auto;}
+#sec-summary td, #sec-summary th {padding:5px;}
+
+/* Hosting for life */
+#override-hfl {position: relative;margin: 0 0 15px 0;font-size: 20px;color: #000;text-shadow: none;text-align: left;padding: 0;float: none;width: auto;margin: 0 0 15px 0;font-weight: 700;border: none;background: #fff none;}
+#page .video-box {width:506px;}
+#page .features {width:330px;}
+#page section.content {position: relative;margin: 0;float: left;width: 742px;background: white;-webkit-border-radius: 0;border-radius: 0;-webkit-box-shadow: none;box-shadow: none;}
+
+/* Social media */
+#add_package_form {float:left;width:365px;}
+
+/* Header */
+#t-branding {height:95px;background: url(../img/bg-header2.png) 100% 100% repeat-x;-webkit-box-shadow: inset 0 0 35px 15px rgba(0, 0, 0, .2), 0 0 8px 0 rgba(0, 0, 0, .5);box-shadow: inset 0 0 35px 15px rgba(0, 0, 0, .2), 0 0 8px 0 rgba(0, 0, 0, .5);}
+
+/* Footer */
+#t-footer p, #t-footer ul {margin:10px 0;}
+
+
+
+
+/* Client specific colors and themes */
+/*#t-branding {background-color:#3262AA !important;}*/ /*background-color:#2857B1 !important;*/
+#t-branding {background:#eee;height:auto;padding:10px 0;margin-bottom:20px;}
+#t-branding img {margin:0;}
+
+#form_wrapper form > fieldset > h2 {color:#3262AA !important;text-align:center;}
+
+#t-footer {margin-top:20px;}
+
+#form_wrapper form > fieldset input.center { margin-top:10px;}
+
+#form_wrapper fieldset table.suggestions tr{font-size:1.2em;}
+#form_wrapper fieldset table.suggestions td{padding:10px;}
+
+#form_wrapper fieldset .suggestions td:first-child { padding-left:60px !important;}
+
+
+
+
+/* General */
+#page, #page-upsell {float:none;display:table;width: 799px;margin: 15px auto 10px auto;padding: 0 0 50px 0;border: 6px solid white;background: white;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, .3), inset 0 0 5px 0 rgba(0, 0, 0, .1);box-shadow: 0 0 25px 0 rgba(0, 0, 0, .3), inset 0 0 5px 0 rgba(0, 0, 0, .1);}
+#page {width:860px;}
+h2 {text-align: center;}
+#form_wrapper input[type="submit"].center {margin:0 auto;display:block;}
+#frmDomain ul li {margin-bottom:7px}
+#content {margin:0;width:100%;}
+	#content fieldset {width:100%;margin:0 0 30px 0;}
+	#content ul {width:100%;}

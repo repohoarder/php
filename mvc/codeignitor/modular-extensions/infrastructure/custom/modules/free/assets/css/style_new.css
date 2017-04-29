@@ -1,0 +1,46 @@
+html, body, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+img {border:none;outline:none;}
+.clear {clear:both;}
+
+h1, h1 a {float:left;width:908px;padding:20px;background:#dbecf5;font:900 30px/30px "Open Sans", sans-serif;border-bottom:1px solid #fff;}
+h2, h2 a {}
+h3, h3 a {}
+h4, h4 a {}
+h5, h5 a {}
+h6, h6 a {}
+
+html {}
+body {background:#e0e0e0;font: normal 14px/19px Arial, sans-serif;}
+
+em {font-weight:bold;font-style:normal;}
+a {color:#035483;}
+p {font-weight:800;padding:0 0 20px;margin:0;}
+a:visited {color:#035483;}
+a:hover {color:#000000;}
+video {display:block;margin:0 auto;}
+
+.wrapper {width:960px;margin:0 auto;}
+.replaced {text-indent:-100%;overflow:hidden;text-align:left;text-transform:uppercase;}
+
+/* Top level structure*/
+#t-header {float:left;width:100%;padding:20px 0;background:#052554 url(../img/bg-header.png) 50% 100% no-repeat;border-bottom:1px solid #5e89b2;}
+
+/* Page content */
+.page {float:left;width:948px;margin: 25px 0 50px 0;background:#f5f8fa url(../img/bg-content.png) 0 100% repeat-x;border:6px solid #fff;-webkit-border-radius:7px;border-radius:7px;-webkit-box-shadow:0 0 35px 0 rgba(0, 0, 0, .7);box-shadow:0 0 35px 0 rgba(0, 0, 0, .7);}
+.content {float:left;width:908px;padding:20px 20px 0;border-bottom:1px solid #fff;}
+
+/* How it works */
+#steps {position:relative;float:left;width:365px;margin:15px 0 25px 25px;background:url(../img/bg-steps.jpg) 0 0 no-repeat;border:1px solid #213f82;-webkit-border-radius:7px;border-radius:7px;}
+	#steps h2 {margin:0;padding:10px;font-size:18px;font-weight:900;color:#fff;}
+	#steps ol {float:left;width:367px;margin:-1px;padding:20px 0 20px 0;background:#f2f2f2 url(../img/bg-steps-ol.png) 0 100% repeat-x;list-style:none;-webkit-border-radius:7px;border-radius:7px;-webkit-box-shadow:0 0 5px 0 rgba(0, 0, 0, .7);box-shadow:0 0 5px 0 rgba(0, 0, 0, .7);}
+		#steps li {float:left;width:302px;height:50px;padding: 10px 10px 0 55px;font-size:18px;color:#4c4c4c;border-top:1px solid #ccc;}
+			#steps li:first-child {height:43px;border:none;}
+			#steps li.step1 {background:url(../img/icon-step1.png) 6px 0 no-repeat;}
+			#steps li.step2 {background:url(../img/icon-step2.png) 6px 50% no-repeat;}
+			#steps li.step3 {background:url(../img/icon-step3.png) 6px 50% no-repeat;}
+			#steps li.step4 {background:url(../img/icon-step4.png) 6px 50% no-repeat;}
+	#steps span {position:absolute;bottom:-78px;left:23px;width:68px;height:88px;background:url(../img/icon-arrow.png) 0 0 no-repeat;}
+
+.btn-sign-up {float:right;height:44px;width:790px;margin:15px 20px 20px 0;text-decoration:none;padding:0;border:none;background:url(../img/btn-create.png) 0 0 repeat-x;cursor:pointer;font-size:25px;font-weight:800;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);border:1px solid #a05e09;}
+	.btn-sign-up:hover {background:#e7a41c;}
+	.btn-sign-up span {float:right;padding:12px 90px 15px 0;font-size:31px;white-space:nowrap;color:#000;font-weight:normal;letter-spacing:-3px;background:url(../img/icon-arrow2.png) 95% 50% no-repeat;}

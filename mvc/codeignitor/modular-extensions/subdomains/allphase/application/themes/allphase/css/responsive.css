@@ -1,0 +1,27 @@
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	#t-overview {font-size:12px;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	#t-overview ul li {margin:10px 0 10px 1%;padding:0 0 0 1%;}
+	.module #pnl-visitor-custom-date, .module #pnl-sales-custom-date, .module #pnl-epc-custom-date, .module #pnl-tickets-custom-date, .module #pnl-calls-custom-date {width:75%;}
+	.module #pnl-visitor-custom-date span, .module #pnl-sales-custom-date span, .module #pnl-epc-custom-date span, .module #pnl-tickets-custom-date span, .module #pnl-calls-custom-date span {float:left;width:100%;padding:0 0 5px 0;}
+	.module #pnl-visitor-custom-date label, .module #pnl-sales-custom-date label, .module #pnl-epc-custom-date label, .module #pnl-tickets-custom-date label, .module #pnl-calls-custom-date label {width:42%;text-align:right;padding:0;}
+	.module #pnl-visitor-custom-date input[type="text"], .module #pnl-sales-custom-date input[type="text"], .module #pnl-epc-custom-date input[type="text"], .module #pnl-tickets-custom-date input[type="text"], .module #pnl-calls-custom-date input[type="text"] {float:right;width:108px;}
+	table {font-size:13px;}
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	.s-support form {padding:25px;}
+		.s-support form label {width:100%;text-align:left;}
+	input[type='text'], input[type='password'], select, textarea {width:100%;}
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	#t-overview {background:none #fff;}
+		#t-overview ul li {width:100%;margin:0;padding:0;color:#000;font-size:16px;}
+	#col-r {width:100%;padding:0 5px;}
+	#col-l {width:100%;padding:0;}
+	table {font-size:11px;}
+}

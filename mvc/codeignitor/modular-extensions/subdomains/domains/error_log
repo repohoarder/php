@@ -1,0 +1,115 @@
+[29-Sep-2012 15:07:35] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 190
+[06-Oct-2012 08:10:34] PHP Fatal error:  Call to undefined method Billing::_shuffle_assoc_array() in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 80
+[06-Oct-2012 12:26:14] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 329
+[06-Oct-2012 12:26:30] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 351
+[06-Oct-2012 12:28:47] PHP Parse error:  syntax error, unexpected $end in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 288
+[06-Oct-2012 12:28:51] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to generate password' in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php:78
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php(98): Billing->_create_password()
+#1 /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php(55): Billing->_create_order()
+#2 [internal function]: Billing->test_submit()
+#3 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/brainhos/applications/subdomains/domains/index.php(204): require_once('/home/brainhos/...')
+#5 {main}
+  thrown in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 78
+[06-Oct-2012 12:50:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/password/generate Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>404 Page Not Found</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px  in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[06-Oct-2012 13:03:20] PHP Fatal error:  Uncaught exception 'Exception' with message 'http://base.brainhost.com/crm/usernames/generate Improperly formatted Platform API response <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<style type="text/css">
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#co in /home/brainhos/applications/infrastructure/custom/libraries/platform.php on line 79
+[06-Oct-2012 15:25:52] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to generate username' in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php:94
+Stack trace:
+#0 /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php(127): Billing->_create_username(Array)
+#1 /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php(55): Billing->_create_order()
+#2 [internal function]: Billing->test_submit()
+#3 /home/brainhos/applications/infrastructure/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/brainhos/applications/subdomains/domains/index.php(204): require_once('/home/brainhos/...')
+#5 {main}
+  thrown in /home/brainhos/applications/infrastructure/custom/modules/billing/controllers/billing.php on line 94
+[08-Oct-2012 10:55:21] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/brainhos/applications/infrastructure/custom/modules/paypal/controllers/test.php on line 5
+[08-Oct-2012 10:55:22] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/brainhos/applications/infrastructure/custom/modules/paypal/controllers/test.php on line 5
+[08-Oct-2012 10:55:22] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/brainhos/applications/infrastructure/custom/modules/paypal/controllers/test.php on line 5
+[08-Oct-2012 10:55:23] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/brainhos/applications/infrastructure/custom/modules/paypal/controllers/test.php on line 5
+[08-Oct-2012 10:55:24] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/brainhos/applications/infrastructure/custom/modules/paypal/controllers/test.php on line 5

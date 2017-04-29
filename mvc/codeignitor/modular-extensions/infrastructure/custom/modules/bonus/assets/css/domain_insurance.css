@@ -1,0 +1,32 @@
+/* Options boxes */
+.content.upsell-domain-insurance {padding:30px;background:#FAFBFB;}
+	
+/* Misc content */
+.content.upsell-domain-insurance h2 {margin:25px 0 0 0;font-size:32px;}
+.content.upsell-domain-insurance p {float:left;width:100%;font-size:16px;font-weight:700;}
+	.content.upsell-domain-insurance p.light {text-align:center;font-size:11px;color:#cbcbca;font-weight:700;}
+.content.upsell-domain-insurance .btn-yellow {width:40%;margin:0 30%;padding:15px 5px;}
+.center {text-align:center;}
+
+/* Features */
+.content.upsell-domain-insurance .features {float:left;width:100%;padding:0 0 25px 0;margin:0 0 25px 0;border-bottom:3px solid #dfdfdf;}
+	.content.upsell-domain-insurance .features ul {float:left;width:100%;height:200px;margin:0;padding:40px 0 0 300px;list-style:none;background:url(../img/img-domain-insurance.jpg)0 0 no-repeat;}
+		.content.upsell-domain-insurance .features li {float:left;width:100%;padding:0 10px 5px 15px;background:url(../img/bullet3.png)0 3px no-repeat;}
+
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	.content.upsell-domain-insurance {background:none;padding:30px 2%;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	.content.upsell-domain-insurance .features ul {height:auto;padding:10px 20px 20px 20px;background:none;}
+	.content.upsell-domain-insurance .btn-yellow {width:90%;margin:0 5%;padding:15px 5px;}
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	
+}

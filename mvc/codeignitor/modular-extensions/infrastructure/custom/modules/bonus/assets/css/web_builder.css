@@ -1,0 +1,33 @@
+/* Options boxes */
+.content.upsell {padding:30px;background:#FAFBFB;}
+	.content.upsell .col-l {float:left;width:50%;padding:25px 0 275px 0;background:url(../img/english/img-web-builder.jpg)50% 100% no-repeat;text-align:center;}
+	.content.upsell .col-r {float:left;width:50%;padding:0 0 0 10%;}
+	
+/* Misc content */
+.content.upsell p {float:left;width:100%;font-size:16px;font-weight:700;}
+	.content.upsell p.light {text-align:center;font-size:11px;color:#cbcbca;font-weight:700;}
+.content.upsell .btn-yellow {width:90%;margin:0 5%;padding:15px 5px;}
+
+/* Features */
+.content.upsell .features {float:left;width:100%;padding:0 0 25px 0;margin:0 0 25px 0;border-bottom:3px solid #dfdfdf;}
+	.content.upsell .features ul {float:left;width:100%;margin:0;padding:0;list-style:none;}
+		.content.upsell .features li {float:left;width:100%;padding:0 10px 5px 15px;background:url(../img/bullet3.png)0 3px no-repeat;}
+
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	.content.upsell {background:none;padding:30px 2%;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	.content.upsell .features {height:auto;padding:10px 20px 20px 20px;background:none;}
+	.content.upsell .col-l {width:100%;background:none;padding:0;}
+	.content.upsell .col-r {width:100%;}
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	
+}

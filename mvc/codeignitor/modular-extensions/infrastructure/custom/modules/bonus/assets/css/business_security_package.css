@@ -1,0 +1,41 @@
+/* Options boxes */
+.content.upsell {padding:30px;background:#FAFBFB;}
+	.content.upsell .col-l {float:left;width:50%;padding:25px 5% 500px 5%;border-right:3px solid #dfdddb;background:url(../img/img-business-security.jpg)50% 100% no-repeat;text-align:left;}
+	.content.upsell .col-r {float:left;width:50%;padding:0 0 0 10%;}
+	
+/* Misc content */
+.content.upsell p {float:left;width:100%;font-size:16px;font-weight:700;}
+	.content.upsell p.light {text-align:center;font-size:11px;color:#cbcbca;font-weight:700;}
+.content.upsell .btn-yellow {width:90%;margin:0 5%;padding:15px 5px;}
+.content.upsell .btn-gray {width:86%;margin:0 7%;padding:15px 5px;font-size:16px;}
+
+/* Tables */
+table {float:left;width:100%;margin:0 0 25px 0;font-size:14px;color:#6a6969;font-weight:700;}
+	th {font-size:16px;padding:5px;text-align:left;}
+	td {padding:5px;}
+		td input {float:left;margin:2px 5px 0 0;}
+	thead tr {background:#ddd;}
+	tbody tr:nth-child(even) {background:#e4e4e4;}
+	tbody .custom-color1 {text-align:right;}
+	tbody {color:#282828;font-size:12px;}
+	table .first {width:22%;}
+	table .third {width:22%;}
+
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	.content.upsell {background:none;padding:30px 2%;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	.content.upsell .features {height:auto;padding:10px 20px 20px 20px;background:none;}
+	.content.upsell .col-l {width:100%;background:none;padding:0;}
+	.content.upsell .col-r {width:100%;}
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	
+}

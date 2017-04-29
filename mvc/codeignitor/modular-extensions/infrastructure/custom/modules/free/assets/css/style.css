@@ -1,0 +1,69 @@
+html, body, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+img {border:none;outline:none;}
+.clear {clear:both;}
+
+h1, h1 a {position:relative;display:block;width:601px;height:80px;margin:-7px auto 0 auto;padding:20px 0 0 0;background:url(/resources/modules/free/assets/img/bg-h1.png) 0 0 no-repeat;font:600 40px/40px "Open Sans", sans-serif;color:#fff;text-align:center;letter-spacing:-2px;}
+h2, h2 a {}
+h3, h3 a {}
+h4, h4 a {}
+h5, h5 a {}
+h6, h6 a {}
+
+html {}
+body {background:#e0e0e0;font: normal 14px/19px Arial, sans-serif;}
+
+#iframe-body {background:#FFF;font: normal 14px/19px Arial, sans-serif;}
+
+em {font-weight:bold;font-style:normal;}
+a {color:#035483;}
+p {font-weight:800;padding:0 0 20px;margin:0;}
+a:visited {color:#035483;}
+a:hover {color:#000000;}
+video {display:block;margin:0 auto;}
+
+.wrapper {width:960px;margin:0 auto;}
+.replaced {text-indent:-100%;overflow:hidden;text-align:left;text-transform:uppercase;}
+
+/* Top level structure*/
+
+/* General style for top level elements */
+[id^="t-"] {position:relative;float:left;width:100%;}
+	#t-branding {height:80px;background:#052554;}
+	#t-nav-main {padding:20px 0;}
+	.wrapper {width:960px;margin:0 auto;}
+
+/* Branding */
+#t-branding .logo {float:left;margin:15px 35px 0 15px;}
+#t-branding form {float:left;padding:29px 0 0 0;}
+	#t-branding fieldset {border:none;padding:0;margin:0;}
+		#t-branding legend {display:none;}
+		#t-branding input{float:left;width:110px;height:15px;padding:6px;margin:0 5px 0 0;background:#e3f4fe url(../img/bg-login-input.png) 0 0 repeat-x;font-size:11px;color:#464646;border:none;-webkit-border-radius: 5px;border-radius: 5px;}
+			#t-branding input[type="image"]{position:relative;width:auto;height:auto;margin:0 0 0 -25px;padding:0;background:none;-webkit-border-radius: 0;border-radius: 0;}
+			#t-branding input:focus{outline:none;}
+#t-branding .utility {float:left;width:150px;padding:27px 0 0 10px;}
+	#t-branding .utility a {display:block;color:#fff;font-size:11px;text-decoration:none;line-height:normal;}
+		#t-branding .utility a:hover {text-decoration:underline;}
+
+#t-header {float:left;width:100%;padding:20px 0;background:#052554 url(/resources/modules/free/assets/img/bg-header.png) 50% 100% no-repeat;border-bottom:1px solid #5e89b2;}
+
+/* Page content */
+#page {float:left;width:890px;margin: 25px 0 50px 0;background:#f5f8fa url(/resources/modules/free/assets/img/bg-content.jpg) 0 0 no-repeat;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 5px 0 rgba(0, 0, 0, .5);box-shadow:0 0 5px 0 rgba(0, 0, 0, .5);}
+#iframe-page {float:left;width:890px;margin: 25px 0 50px 0;background: #FFF /* #f5f8fa;  url(/resources/modules/free/assets/img/bg-content.jpg) 0 0 no-repeat;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 5px 0 rgba(0, 0, 0, .5);box-shadow:0 0 5px 0 rgba(0, 0, 0, .5) */;}
+.content {float:left;width:858px;padding:20px 20px 0;border-bottom:1px solid #fff;}
+
+/* Button Sign Up */
+
+/* How it works */
+#steps {position:relative;display:block;width:586px;margin:0 auto;background:url(/resources/modules/free/assets/img/bg-steps.jpg) 0 0 no-repeat;border:1px solid #213f82;-webkit-border-radius:7px;border-radius:7px;}
+	#steps h2 {margin:0;padding:25px;font-size:18px;font-weight:900;color:#fff;text-align:center;}
+	#steps ol {float:left;width:588px;margin:-8px -1px 25px -1px;padding:20px 0 20px 0;background:#f2f2f2 url(/resources/modules/free/assets/img/bg-steps-ol.png) 0 100% repeat-x;list-style:none;-webkit-border-radius:7px;border-radius:7px;-webkit-box-shadow:0 0 5px 0 rgba(0, 0, 0, .7);box-shadow:0 0 5px 0 rgba(0, 0, 0, .7);}
+		#steps li {float:left;width:458px;padding:35px 10px 35px 120px;font-size:18px;color:#4c4c4c;border-top:1px solid #ccc;}
+			#steps li:first-child {border:none;}
+			#steps li.step1 {background:url(/resources/modules/free/assets/img/icon-step1.png) 20px 50% no-repeat;}
+			#steps li.step2 {background:url(/resources/modules/free/assets/img/icon-step2.png) 20px 50% no-repeat;}
+			#steps li.step3 {background:url(/resources/modules/free/assets/img/icon-step3.png) 20px 50% no-repeat;}
+			#steps li.step4 {background:url(/resources/modules/free/assets/img/icon-step4.png) 20px 50% no-repeat;}
+	#steps span {position:absolute;bottom:-78px;left:23px;width:68px;height:88px;background:url(/resources/modules/free/assets/img/icon-arrow.png) 0 0 no-repeat;}
+
+.btn-sign-up {display:block;height:69px;width:586px;margin:30px auto 20px auto;color:#000;text-align:center;line-height:69px;font-weight:normal;letter-spacing:-1px;text-decoration:none;padding:0;border:none;background:url(/resources/modules/free/assets/img/btn-create.png) 0 0 repeat-x;cursor:pointer;font-size:22px;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);border:1px solid #a05e09;}
+	.btn-sign-up:hover {background:#e7a41c;}

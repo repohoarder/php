@@ -1,0 +1,36 @@
+/* Options boxes */
+.content.upsell {padding:30px;background:#FAFBFB;}
+	.content.upsell .col-l {float:left;width:50%;height:294px;padding:0;margin:25px 0 0 0;background:url(../img/english/img-host-discount-no-text.jpg)50% 100% no-repeat;text-align:center;}
+	.content.upsell .col-l p {margin:0;padding:0;color:#656565;font-weight:bold;text-align:left;padding:25px 0 0 90px;}
+	.content.upsell .col-l p span {color:#2f8e0c;font-size:1.2em;display:block}
+	.content.upsell .col-l p span strong {line-height: 1em;font-size:2em;display:block;}
+	.content.upsell .col-r {float:left;width:50%;padding:25px 0 0 10%;}
+	
+/* Misc content */
+.content.upsell p {float:left;width:100%;font-size:20px;font-weight:700;margin:0;}
+	.content.upsell p.light {text-align:center;font-size:11px;color:#cbcbca;font-weight:700;}
+.content.upsell .btn-yellow {width:90%;margin:0 5%;padding:15px 5px;}
+
+/* Text at top */
+.module hgroup h2 {display:block;width:150px;margin:0 auto;padding:7px 5px 28px 5px;font-size:26px;text-align:center;color:#000;background:url(../img/bg-chatbubble.png)0 0 no-repeat;}
+.module hgroup h3 {margin:0;padding:0;color:#000;font-size:30px;text-align:center;}
+.module hgroup h4 {margin:0;padding:0;color:#000;font-size:55px;text-align:center;}
+
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	.content.upsell {background:none;padding:30px 2%;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	.content.upsell .features {height:auto;padding:10px 20px 20px 20px;background:none;}
+	.content.upsell .col-l {width:100%;background:none;padding:0;}
+	.content.upsell .col-r {width:100%;}
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	
+}

@@ -1,0 +1,7 @@
+iframe {display:block;margin:0 auto;border:none;}
+#page {background:#d3e7f3 url(../img/bg-page.png) 0 0 repeat-x;text-align:center;}
+.btn-sign-up {display:block;width:551px;height:55px;margin:0 auto 30px auto;background:url(../img/btn-sign-up.png) 0 0 no-repeat;}
+	.btn-sign-up:hover {background-position:0 -55px;}
+h1 {margin-top:30px;font-size:34px;color:#af2020;font-weight: normal;}
+p {font-size:18px;}
+iframe {overflow: hidden;}

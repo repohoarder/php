@@ -1,0 +1,41 @@
+/* Options boxes */
+.content.upsell-se-package {padding:30px;background:#FAFBFB;}
+	.content.upsell-se-package .col-l {float:left;width:50%;padding:25px 5% 440px 0;background:url(../img/english/img-se-package.jpg)50% 100% no-repeat;text-align:center;}
+	.content.upsell-se-package .col-r {float:left;width:50%;padding:0 0 0 5%;border-left:3px solid #dfdfdf;;}
+	
+/* Misc content */
+.content.upsell-se-package p {float:left;width:100%;font-size:16px;font-weight:700;}
+	.content.upsell-se-package p.light {text-align:center;font-size:11px;color:#cbcbca;font-weight:700;}
+.content.upsell-se-package .btn-yellow {width:90%;margin:0 5%;padding:15px 5px;}
+.content.upsell-se-package .btn-gray {width:86%;margin:0 7%;padding:15px 5px;font-size:16px;}
+.content.upsell-se-package .or {float:left;width:100%;margin:25px 0;height:13px;background:url(../img/english/bg-or.png)50% 0 no-repeat;text-indent:-200%;}
+
+/* Table */
+.content.upsell-se-package table {float:left;width:100%;}
+	.content.upsell-se-package th {padding:3px;background:#dadada;font-size:16px;text-align:left;}
+	.content.upsell-se-package td {padding:10px;font-size:11px;font-weight:700;}
+		.content.upsell-se-package td input {float:right;}
+		.content.upsell-se-package td:last-child {font-size:14px;}
+	.content.upsell-se-package td.a {padding:10px 0;width:80px;}
+	.content.upsell-se-package td.b {}
+	.content.upsell-se-package td.c {width:50px;}
+	.content.upsell-se-package td.d {}
+
+/* Tablet landscape */
+@media screen and (max-width: 68em) {
+	.content.upsell-se-package {background:none;padding:30px 2%;}
+}
+/* Phone landscape */
+@media screen and (max-width: 58em) {
+	.content.upsell-se-package .features {height:auto;padding:10px 20px 20px 20px;background:none;}
+	.content.upsell-se-package .col-l {width:100%;background:none;padding:0;}
+	.content.upsell-se-package .col-r {width:100%;}
+}
+/* Tablet portrait */
+@media screen and (max-width: 48em) {
+	
+}
+/* Phone portrait */
+@media screen and (max-width: 38em) {
+	
+}

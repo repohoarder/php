@@ -1,0 +1,67 @@
+html, body, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+img {border:none;outline:none;}
+.clear {clear:both;}
+
+h1, h1 a {float:left;width:759px;padding:20px;background:#dbecf5;font:800 30px/30px "Open Sans", sans-serif;border-bottom:1px solid #fff;}
+h2, h2 a {}
+h3, h3 a {}
+h4, h4 a {}
+h5, h5 a {}
+h6, h6 a {}
+
+html {}
+body {background:#efefef url(../img/bg-body.png) 0 0 repeat-x;font: normal 14px/19px Arial, sans-serif;}
+
+em {font-weight:bold;font-style:normal;}
+a {color:#035483;}
+p {font-weight:800;padding:0 0 20px;margin:0;}
+a:visited {color:#035483;}
+a:hover {color:#000000;}
+video {display:block;margin:0 auto;}
+
+.wrapper {width:811px;margin:0 auto;}
+.replaced {text-indent:-100%;overflow:hidden;text-align:left;text-transform:uppercase;}
+
+/* Top level structure*/
+#t-branding {float:left;width:100%;padding:14px 0;background:#052554 url(../img/bg-header.png) 50% 100% no-repeat;border-bottom:1px solid #5e89b2;}
+
+/* Page content */
+#page {float:left;width:799px;margin: 25px 0 50px 0;background:#ddf1f8;border:6px solid #fff;-webkit-border-radius:7px;border-radius:7px;-webkit-box-shadow:0 0 35px 0 rgba(0, 0, 0, .7);box-shadow:0 0 35px 0 rgba(0, 0, 0, .7);}
+.content {float:left;width:779px;padding:20px 20px 0;border-bottom:1px solid #fff;}
+.step1 {float:left;width:400px;}
+	.step1 h2 {float:left;width:350px;padding:15px 0 15px 50px;background:url(../img/icon-step1.png) 0 0 no-repeat;font-weight:normal;color:#4c4c4c;}
+.step2 {float:left;width:399px;}
+	.step2 h2 {float:left;width:349px;padding:15px 0 15px 50px;background:url(../img/icon-step2.png) 0 0 no-repeat;font-weight:normal;color:#4c4c4c;}
+
+/* Form */
+form {float:left;padding:0;margin:0;}
+form legend {display:none;}
+form fieldset {float:left;padding:0 0 30px 0;margin:0;border:none;}
+form input {float:left;width:365px;padding:8px 5px;border:1px solid #bdd3db;}
+	form input[disabled='disabled'] {background:#fff;}
+form select {float:left;width:309px;padding:8px 5px;border:1px solid #bdd3db;}
+form div {float:left;width:378px;padding:10px 10px 0 10px;position:relative;}
+	form div.half {width:179px}
+		form div.half input{width:163px}
+	form div.last {margin: 0 0 15px 0;}
+form label {float:left;width:100%;color:#4c4c4c;font-size:14px;font-weight:800;}
+form label small{float:left;width:100%;font-size:12px;font-weight:normal;}
+button {display:block;float:none;height:44px;width:355px;margin:0 auto;padding:0;border:none;background:url(../img/btn-create.png) 0 0 repeat-x;cursor:pointer;font-size:25px;font-weight:800;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);border:1px solid #a05e09;}
+	button:hover {background:#e7a41c;}
+#btn-domain {float:left;width:172px;height:26px;margin:20px 0 0 0;padding:7px 0 0 0;background:url(../img/btn-small.png) 0 0 repeat-x;cursor:pointer;font-size:13px;color:#000;text-decoration:none;text-align:center;font-weight:800;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);box-shadow:0 0 3px 0 rgba(0, 0, 0, .7);border:1px solid #a05e09;}
+	#btn-domain:hover {background:#e7a41c;}
+#pnl-domain {display:none;}
+#pnl-results {display:none;}
+#pnl-loading {display:none;float:left;width:378px;height:50px;background:url(../img/loading.gif) -119px -155px no-repeat;}
+#btn-spin {position:absolute;right:15px;bottom:6px;width:95px;height:21px;padding:5px 0 0 40px;color:#4d4d4d;text-decoration:none;background:#e1e5e6 url(../img/icon-spin.png) 20px 5px no-repeat;-webkit-border-radius:5px;border-radius:5px;}
+	#btn-spin:hover {background-color:#c6c9ca;}
+#txtDomain {width:235px;padding:8px 135px 8px 5px;}
+
+/* Error text */
+#error {display:none;color:#c73434;}
+
+/* Aside for signup */
+#signup {float:left;width:100%;padding:55px 0 0 0;}
+	#signup span{float:left;width:373px;height:48px;padding:29px 0 0 15px;margin: 0 0 25px 17px;font-size:15px;letter-spacing:-1px;color:#fff;background:url(../img/bg-arrow.png) 0 0 no-repeat;}
+	#signup #btn-hosting {float:left;width:372px;height:44px;font-weight:600;padding:0;margin:12px 0 25px 5px;text-align:center;text-decoration:none;font-size:20px;color:#fff;background:url(../img/btn-green.png) 0 0 repeat-x;border:1px solid #fff;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 7px 0 rgba(0, 0, 0, .7);box-shadow:0 0 7px 0 rgba(0, 0, 0, .7);}
+		#signup #btn-hosting:hover {background:#b0c71d;}

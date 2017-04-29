@@ -1,0 +1,92 @@
+html, body, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+img {border:none;outline:none;}
+.clear {clear:both;}
+
+h1, h1 a {font-size:28px;font-weight:800;color:#000;line-height:28px;}
+h2, h2 a {}
+h3, h3 a {}
+h4, h4 a {}
+h5, h5 a {}
+h6, h6 a {}
+
+html {}
+body {background:#efefef;font-family:'Open Sans', Arial, Helvetica, sans-serif;font-size:14px;}
+
+a { }
+a:visited { }
+a:hover { }
+
+/* Helper classes */
+.shadow{-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);}
+.hide-text{text-align:left;white-space:nowrap;overflow:hidden;text-indent:-9999px;text-transform:uppercase;}
+
+/* General style for top level elements */
+[id^="t-"] {position:relative;float:left;width:100%;}
+	#t-branding {height:79px;background:#052554 url(../img/bg-header.png) 50% 0 no-repeat;}
+	#t-main {min-width:945px;background:#efefef;}
+	.wrapper {width:945px;margin:0 auto;}
+
+/* Branding */
+#t-branding .logo {float:left;margin:15px 35px 0 15px;}
+
+/* Page content */
+#page {float:left;width:933px;margin:15px 0 10px 0;padding:0 0 50px 0;border:6px solid #fff;background:#fff;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;-webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, .5), inset 0 0 5px 0 rgba(0, 0, 0, .1);box-shadow: 0 0 25px 0 rgba(0, 0, 0, .5), inset 0 0 5px 0 rgba(0, 0, 0, .1);}
+	#page h1 {float:left;width:893px;padding:15px 20px;background:#d1f1f8 url(../img/bg-steps.png) 0 0 repeat-y;}
+		#page h1 span {float:right;font-size:17px;}
+			#page h1 a {font-size:17px;color:#a1bed2;text-decoration:none;}
+	.congratulations {float:left;width:849px;margin: 20px 25px;padding:15px;border:2px solid #959595;text-align:center;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 5px 0 rgba(0, 0, 0, .3), inset 0 0 75px 0 rgba(0, 0, 0, .3), inset 0 0 10px 0 rgba(70, 127, 175, .5);box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5), inset 0 0 75px 0 rgba(0, 0, 0, .3), inset 0 0 10px 0 rgba(70, 127, 175, .5);}
+		.congratulations strong {color:#306ea6;font-size:16px;}
+		.congratulations .timer {display:block;width:115px;margin:15px auto 15px auto;padding:5px 3px;font-size:20px;font-weight:800;background:#fff9a3;border:4px solid #457eae;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:inset 0 0 75px 0 rgba(254,242,70,1), inset 0 0 10px 0 rgba(251,210,12,1);box-shadow:inset 0 0 75px 0 rgba(254,242,70,1), inset 0 0 10px 0 rgba(251,210,12,1);} 
+		.congratulations p {font-size:13px;font-weight:600;}
+
+/* First column and general */
+.column {float:left;width:277px;height:630px;border:6px solid #fff;margin:11px;background:#e4eff8 url(../img/bg-payment-column.png) 0 0 repeat-y;-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);}
+	.column fieldset {padding:0;border:0;}
+		.column legend{display:none;}
+	.column h2 {float:left;width:257px;padding:10px;background:#5188b3 url(../img/bg-payment-header.png) 0 0 repeat-x;color:#fff;font-size:17px;text-shadow: -1px 1px 2px #000;}
+	.column ol {float:left;width:277px;margin:0;padding:0;list-style:none;font-size:14px;}
+		.column li {float:left;width:100%;background:none;}
+			.column li.alt {background:#b8d4ed;}
+			.column li li {width:267px;padding:5px;color:#444;}
+			.column li .alt{background:#c9eaf2;}
+				.column .alt li {background:#b8d4ed;}
+					.column .alt .alt {background:#abcdec;}
+			.column li span {float:right;width:50px;text-align:left;color:#000;font-weight:600;}
+			.column li strong {float:left;width:248px;padding:10px 5px 5px 24px;font-weight:600;background:url('/resources/brainhost/img/ico-checked.png') 9px 13px no-repeat;}
+				.column li strong span{float:right;width:50px;text-align:left;color:#000;font-weight:600;}
+			.column li input {margin-right:6px;}
+		.column ol li ol li {padding-left:20px;width:252px;font-size:0.9em;}
+
+/* Second column */
+	.c-guarantee h3 {font-size:24px;color:#13315d;text-align:center;}
+	.c-guarantee p {font-size:12px;color:#13315d;padding:0 25px;font-weight:600;}
+	.c-guarantee .award {float:left;width:216px;margin:20px;padding:10px;background:#fff;text-align:center;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);}
+		.c-guarantee .award p {text-align:center;font-size:13px;color:#636363;}
+	.c-guarantee fieldset {float:left;padding:15px 0 15px 15px;border:none;}
+		.c-guarantee input {float:left;}
+		.c-guarantee label {float: left;width:225px;font-size:12px;color:#13315d;padding:0 5px;font-weight:600;}
+
+/* Third column */
+.c-info fieldset {padding:10px 15px 10px 5px;margin:0;}
+	.c-info .info-account {border-bottom:6px solid #fff;}
+	.c-info .row {float:left;width:100%;margin:0 0 7px 0;}
+	.c-info input {float:right;width:140px;margin:0;}
+	.c-info select {float:right;width:144px;}
+	.c-info label {float:left;width:91px;padding:3px 0 0 0;font-size:12px;text-align:right;font-weight:600;}
+		.c-info label:after {content:":";}
+	.info-payment select {width: 67px;margin:0 5px 0 0;}
+	.info-payment .cvv {float:left;width:67px;margin: 0 0 0 21px;}
+	.info-payment a {float: left;font-size:11px;color:#13315d;text-decoration:none;margin:5px 0 0 5px;}
+		.info-payment a:hover {text-decoration:underline;}
+	.info-payment input[type="submit"] {float:left;width:124px;height:35px;margin:20px 0 0 75px;cursor:pointer;border:none;background:url(../img/btn-continue.png) 0 0 no-repeat;text-align:left;text-transform:uppercase;overflow:hidden;text-indent:-9999px;}
+		.info-payment input[type="submit"]:hover {background-position:-124px 0;}
+
+/* Validation */
+.required.error {border:2px solid #990000;background:#FFE7E7;}
+
+/* Security emblems */
+.security {float:left;width:100%;padding: 30px 0 0 0;margin:12px 0 0 0;text-align:center;background:url(../img/bg-security.png) 50% 0 no-repeat;}
+
+/* Footer */
+#footer {float:left;width:100%;text-align:center;font-size:12px;color:#565d52;}
+	#footer a {color:#0054a6;}

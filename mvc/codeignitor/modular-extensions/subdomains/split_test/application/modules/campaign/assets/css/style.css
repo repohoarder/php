@@ -1,0 +1,269 @@
+ul li {
+		list-style: none;
+		clear:both;
+		padding:10px;
+}	
+
+ul.brands {
+	clear:both;
+	display:block;
+}
+
+ul.brands li{
+	float:left;
+	clear:none;
+	margin:5px;
+}	
+
+ul.brands li.selected {
+	float:left;
+	clear:none;
+	background:#c0c0c0;
+	-moz-border-radius:  5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	-khtml-border-radius:  5px; 
+
+}	
+
+ ul.brands li:hover {
+	float:left;
+	clear:none;
+	background:#f0f0f0;
+	-moz-border-radius:  5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	-khtml-border-radius:  5px; 
+ }
+
+ul.brands li a {
+	text-decoration:none;
+	color:#052554
+}
+
+
+label {
+	display:block;
+	font-weight:bold;
+	width:130px;
+	float:left;
+	text-align:right;
+	margin-right:10px;
+}
+
+input, select {
+	float:left;
+	width:300px;
+}
+
+fieldset, section {
+
+		margin : 20px;
+		padding-bottom:10px;
+		display:block;
+		clear:both;
+		background-color: #fff;
+	  
+		border:1px solid #999;
+	  
+		
+		-moz-border-radius:  0px 0px 10px 10px; 
+		-webkit-border-radius: 0px 0px 10px 10px; 
+		border-radius: 0px 0px 10px 10px; 
+		-khtml-border-radius:  0px 0px 10px 10px; 
+
+}
+
+h3 {
+	color:#c0c0c0;
+	background-color: #052554;
+	text-align:left;
+	padding:10px;
+}
+
+h3 span a{
+	color:#fff;
+	font-size:12px;
+	text-decoration:none;
+	display:block;
+	padding:5px;
+}
+
+h3 span:hover{
+	color:#fff;
+	background-color:red;
+
+}
+
+.add_item {
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	padding: 5px;
+	margin-left:20px;
+	
+}
+
+.add_item:hover {
+	color:#052554;
+	background-color:#f0f0f0;
+	text-decoration:none;
+	font-size:18px;
+	
+	-moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		border-radius: 5px; 
+		-khtml-border-radius:  5px; 
+}
+
+.percent {
+
+	width:50px;
+}
+
+span.desc {
+	margin-left:5px;
+	float:left;
+	color:#888;
+	font-size:12px;
+}
+
+span.info{
+	float:right;
+	font-size:10px;
+	color:#fff;
+	font-weight:normal;
+	padding:5px;
+}
+
+button{border:none;background:none;text-decoration:none;background:url(//front_cdn.s3.amazonaws.com/img/bg-rounded-button.jpg) repeat-x;height:42px;line-height:42px;border:1px solid #b5740f;border-top:1px solid #da910d;border-bottom:1px solid #905206;padding:0 30px;color:#3b2806;opacity:1;transition:opacity .25s ease-in-out;-moz-transition: opacity .25s ease-in-out;-webkit-transition:opacity .25s ease-in-out;display:inline-block;-webkit-border-radius:21px;-moz-border-radius:21px;border-radius:21px;text-shadow: 0px 1px 0px #ffffff;filter: dropshadow(color=#ffffff, offx=0, offy=1);font-weight:bold;font-size:14px;}
+button:hover {opacity:.8;}
+
+.error {
+	border:2px solid red;
+	font-size:14px;
+}
+
+
+table {
+	width: 100%;
+	border: 1px solid #B0B0B0;
+	}
+	table tbody {
+	/* Kind of irrelevant unless your .css is alreadt doing something else */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: #fff;
+	}
+	table thead {
+	text-align: left;
+	}
+	table thead th {
+	background: -moz-linear-gradient(top, #F0F0F0 0, #DBDBDB 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #DBDBDB));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#DBDBDB', GradientType=0);
+	border: 1px solid #B0B0B0;
+	color: #444;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px 10px;
+	}
+	table td {
+	padding: 3px 10px;
+	}
+	table tr:nth-child(even) {
+	background: #F2F2F2;
+	}
+	
+	table tfoot td {
+	background: -moz-linear-gradient(top, #F0F0F0 0, #DBDBDB 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #DBDBDB));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#DBDBDB', GradientType=0);
+	border: 1px solid #B0B0B0;
+	color: #444;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px 10px;
+	}
+
+nav {
+
+	display:block;
+	height:50px;
+}	
+	
+nav ul {
+	display:block;
+	height:100px;
+	list-style: none;
+	position:absolute;
+	
+	margin-top:-1px;
+
+}
+	
+nav ul li {
+
+	padding:5px;
+	width:100px;
+	padding: 5px 20px;
+
+	background-color:#052554;
+	color:#f0f0f0;
+	text-decoration:none;
+	font-size:18px;
+	display: inline;
+	text-align:center;
+	
+	-moz-border-radius:  0px 0px 10px 10px; 
+	-webkit-border-radius: 0px 0px 10px 10px; 
+	border-radius: 0px 0px 10px 10px; 
+	-khtml-border-radius:  0px 0px 10px 10px; 
+
+}	
+
+
+nav ul li:hover {
+	background-color:#777;
+}
+
+nav ul li a{
+	color:#f0f0f0;
+	text-decoration:none;
+	display:inline;
+}
+
+.control{
+	background: #B8C9FF;
+}
+
+.winner{
+	background: #C9FFB8;
+}
+
+#keys{
+	margin : 20px;
+}
+
+#keys .key{
+	float:left;
+	height:20px;
+	width:100px;
+	display:block;
+	padding:5px;
+	font-weight:bold;
+	color:#777;
+}
+
+#keys .key span{
+	float:left;
+	height:20px;
+	width:20px;
+	display:block;
+	margin-right:5px;
+	
+}

@@ -1,0 +1,23 @@
+/* FORM CSS */
+
+	form {float:none;text-align:left;}
+		
+	.form_l {
+		width: 34%;
+		float:left;
+		text-align:right;
+		padding-right:1%;
+	}
+	
+	.form_r {
+		width: 65%;
+		float:right;
+	}
+	
+	.form_space {
+		clear:both;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+/* MAIN CSS */
